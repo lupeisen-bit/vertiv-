@@ -1,0 +1,271 @@
+[
+ {
+  "k": "ul1778|0",
+  "slides": [
+   {
+    "kind": "cards",
+    "title": "UL 1778 概览 · 详解 (1/3)",
+    "subtitle": "版本、修订与 Scope",
+    "cards": [
+     {
+      "title": "版本与定位",
+      "color": "teal",
+      "items": [
+       "第 5 版发布于 2014-06-13，与 CSA C22.2 No.107.3-14 第 3 版联合（UL 官网）；Reference Document 为 UL 60950-1 第 2 版。",
+       "修订：2015-08-07、2017-10-12、2023-04-28、2024-04-03。2023-04-28 修订纳入 UL 1973 电池；2024-04-03 为仅 UL 的编辑性更新。",
+       "要求由 UL/CSA 既有 UPS 要求加 IEC 62040-1 第 1 版发展而来。",
+       "公开资料限于 Scope、目录与 SUN 摘要，无全文；试验参数须取得正式文本，条款判据不能仅凭本页。"
+      ]
+     },
+     {
+      "title": "Scope 要点",
+      "color": "orange",
+      "items": [
+       "UL 官网现行文字：用于最高 600 V a.c. 的配电系统的 UPS；较早的 Intertek Inform 摘要写作“600 V 或以下 ac 或 dc”，两处措辞不同。",
+       "Scope 同时引用 NEC 与 NFPA 75（信息技术设备防火）。",
+       "§1.1.3 排除 NEC 701 法定备用电源与 CEC §46 应急电源的要求。",
+       "解读：Scope 措辞差异本身需向 UL 书面确认，并向 UL 索取 Scope 条文原文留档。"
+      ]
+     }
+    ],
+    "src": "UL 官网 UL 1778 页；Intertek SUN（UL 1778 各期）；Intertek Inform 摘要；IEC 62040-1:2017 摘要；IECEE；Current/OS 路线图；无公开全文",
+    "conf": "B"
+   },
+   {
+    "kind": "cards",
+    "title": "UL 1778 概览 · 详解 (2/3)",
+    "subtitle": "认证关联与 IEC 对应",
+    "cards": [
+     {
+      "title": "认证关联",
+      "color": "teal",
+      "items": [
+       "UL Solutions 认证页关联 NEC 645.11、700.12(E)、701.12(E)、708.20(G)，说明 UPS 认证与安装规范中对应条款相联系。",
+       "联合版 CSA C22.2 No.107.3-14 对应加拿大。",
+       "解读：这些 NEC 条款的具体内容未在资料中展开，使用时需查 NEC 正式文本，并确认 800V DC UPS 是否适用同类条款。"
+      ]
+     },
+     {
+      "title": "IEC 对应",
+      "color": "orange",
+      "items": [
+       "IEC 62040-1:2017 端口 ≤1000 V AC 或 1500 V DC，引用 IEC 62477-1。",
+       "IECEE 将 UL 1778 第 5 版列为美国国家差异。",
+       "CANENA THC 22H 计划采用 UL 62040-1 与 UL 62477-1。采用时间表需向 UL 确认。"
+      ]
+     }
+    ],
+    "src": "UL 官网 UL 1778 页；Intertek SUN（UL 1778 各期）；Intertek Inform 摘要；IEC 62040-1:2017 摘要；IECEE；Current/OS 路线图；无公开全文",
+    "conf": "B"
+   },
+   {
+    "kind": "cards",
+    "title": "UL 1778 概览 · 详解 (3/3)",
+    "subtitle": "与 800V DC 的关系",
+    "cards": [
+     {
+      "title": "资料明确的内容",
+      "color": "red",
+      "items": [
+       "Scope 为 600 V a.c.：800 V DC 不在字面范围内；旧摘要的 dc 上限同为 600 V，仍低于 800 V。",
+       "路线图：DC UPS = UL 1012 + UL 1778，动作为 Guide Card，状态 Starting。",
+       "路线图注明长期转 UL 62040-5-1；时间表未给出。"
+      ]
+     },
+     {
+      "title": "需确认与判断",
+      "color": "orange",
+      "items": [
+       "是否按 UL 1778 受理 800 V DC UPS，资料未写，需向 UL 确认：是走 Guide Card、扩展 Scope 还是转 UL 62040 系列。",
+       "解读：IEC 62040-1:2017 已含 1500 V DC 端口，转向 UL 62040 后 800 V DC 才可能有明确范围，但本组资料未取得 UL 62040 文本。",
+       "解读：短期项目应在 Guide Card 阶段确认认证周期与测试范围，并同步准备 UL 1973 电池证据。"
+      ]
+     }
+    ],
+    "src": "UL 官网 UL 1778 页；Intertek SUN（UL 1778 各期）；Intertek Inform 摘要；IEC 62040-1:2017 摘要；IECEE；Current/OS 路线图；无公开全文",
+    "conf": "B"
+   }
+  ]
+ },
+ {
+  "k": "ul1778|8",
+  "slides": [
+   {
+    "kind": "cards",
+    "title": "UL 1778 的 800V 适配 · 详解 (1/2)",
+    "subtitle": "不覆盖点与可行路径",
+    "cards": [
+     {
+      "title": "不覆盖 / 需确认",
+      "color": "red",
+      "items": [
+       "现行 Scope 最高 600 V a.c.：800 V DC 字面不覆盖；旧摘要“ac 或 dc”上限也是 600 V。",
+       "UL 1012 §1.1 输入 ≤600 V，也不覆盖 800 V 输入；DC UPS 组合（UL 1012 + UL 1778）两侧都有 600 V 限制。",
+       "路线图缺口表列出“UL 1778 – DC UPS”，但版面提取有乱码，需核对原图。"
+      ]
+     },
+     {
+      "title": "有路径可走",
+      "color": "green",
+      "items": [
+       "路线图：DC UPS = UL 1012 + UL 1778，动作 Guide Card，状态 Starting，长期转 UL 62040-5-1。",
+       "IEC 62040-1:2017 已含 1500 V DC 端口；UL 1973 电池路径已写入 4.3.8.101.0 与 Annex HHH。",
+       "解读：Guide Card 路径的内容、时间与适用范围需向 UL 确认，在此之前不能假定 800 V DC UPS 已被 UL 1778 覆盖。"
+      ]
+     }
+    ],
+    "src": "UL 官网 UL 1778 页；UL 1012 §1.1/§1.10；Current/OS 路线图；IEC 62040-1:2017；Intertek SUN；UL 新兴风险文章（2026-10）",
+    "conf": "B"
+   },
+   {
+    "kind": "cards",
+    "title": "UL 1778 的 800V 适配 · 详解 (2/2)",
+    "subtitle": "技术热点与风险",
+    "cards": [
+     {
+      "title": "技术热点（解读）",
+      "color": "orange",
+      "items": [
+       "解读：电池串按 UL 1973 评估，过充试验为 106% 额定电压持续 7 h（5.3.102，SUN 原文）；800 V 串的电压调节精度是关键。",
+       "解读：Annex FFF 防反灌判据如何延伸到 DC 母线需 UL 确认；原文只知 FFF.1–FFF.6 与 FFF.3 增补。",
+       "解读：Annex NNN/MMM 短路耐受对 DC 的适用性需确认；二手资料对 SCCR 数值说法不一，不得引用。",
+       "母排按 Annex AAA.8，STS 与转换开关按 Annex AAA.5 评估（目录），具体判据需取得正式文本。"
+      ]
+     },
+     {
+      "title": "风险关注",
+      "color": "red",
+      "items": [
+       "UL 新兴风险文章关注 800 VDC 的电弧、电击与过流，指出 DC 电弧行为与保护假设仍需研究。",
+       "UL 1778 是否扩展到 DC 范围：以 UL 书面答复为准。",
+       "认证周期与测试范围需在 Guide Card 阶段确认。"
+      ]
+     }
+    ],
+    "src": "UL 官网 UL 1778 页；UL 1012 §1.1/§1.10；Current/OS 路线图；IEC 62040-1:2017；Intertek SUN；UL 新兴风险文章（2026-10）",
+    "conf": "B"
+   }
+  ]
+ },
+ {
+  "k": "ul1778|10",
+  "slides": [
+   {
+    "kind": "cards",
+    "title": "UL 1778 检查清单 · 详解 (1/2)",
+    "subtitle": "范围、电池与能量（检查—判据—证据）",
+    "cards": [
+     {
+      "title": "范围与路径",
+      "color": "teal",
+      "items": [
+       "适用性：产品是否属 600 V a.c. 配电系统 UPS（Scope）；判据为 UL 官网 Scope；800 V DC 项目须 UL 书面确认；证据为答复函。",
+       "问询路径：800 V DC 项目先递交 Guide Card 问询（路线图）；证据为问询记录与 UL 回复。",
+       "版本：向 UL 索取最新修订（2024-04-03）正式文本；证据为文本版本号记录。",
+       "归属：主要功能是否为维持交流连续性（UL 1012 §1.10）；是则归 UL 1778；证据为功能描述。"
+      ]
+     },
+     {
+      "title": "电池与能量",
+      "color": "orange",
+      "items": [
+       "电池证据：按 UL 1973 取证，铅酸 <70 kWh 可按 UL 1989（4.3.8.101.0，SUN）；证据为电池证书。",
+       "过充：满电池 106% 额定电压持续 7 h（5.3.102）；稳压调节充电器或 UL 1973 Annex H 可豁免，能否豁免需确认；证据为豁免依据或试验记录。",
+       "通风：按 Annex HHH，HHH.7A 可用 UL 1973 气体数据；证据为通风计算与电池数据。",
+       "短路耐受：Annex NNN/MMM 路径需确认（二手资料说法不一）；证据为 UL 确认的 SCCR 标称方式。"
+      ]
+     }
+    ],
+    "src": "Intertek SUN（UL 1778 各期）；UL 官网；UL 1012 §1.10；Current/OS 路线图；无公开全文，参数须取得正式文本",
+    "conf": "B"
+   },
+   {
+    "kind": "cards",
+    "title": "UL 1778 检查清单 · 详解 (2/2)",
+    "subtitle": "保护、试验与生产（检查—判据—证据）",
+    "cards": [
+     {
+      "title": "保护与试验",
+      "color": "teal",
+      "items": [
+       "防反灌：对照 Annex FFF.1–FFF.6；二手时限（1 s/15 s）不得引用，需取正式条文；证据为反灌试验记录。",
+       "输出过载：5.3.105 为 SUN 提及的新试验，步进与判据需取正式文本；证据为预试数据。",
+       "母排与 STS：按 Annex AAA.5、AAA.8 评估；证据为设计说明与元件试验记录。"
+      ]
+     },
+     {
+      "title": "标记与生产线",
+      "color": "green",
+      "items": [
+       "标记：含日期标记（1.7.1.104）与 SUN 提及的新增标记条款；证据为标签样张与条款对照表。",
+       "生产线：Annex PPP.1 介电耐压与 PPP.2 接地连续性方案；试验电压需向 UL 确认，600 V 级设定不能默认沿用；证据为生产线作业指导书。",
+       "解读：对照各期 SUN 逐条核对条款变更对产品的影响，并把结论纳入设计评审记录。"
+      ]
+     }
+    ],
+    "src": "Intertek SUN（UL 1778 各期）；UL 官网；UL 1012 §1.10；Current/OS 路线图；无公开全文，参数须取得正式文本",
+    "conf": "B"
+   }
+  ]
+ },
+ {
+  "k": "ul1778|11",
+  "slides": [
+   {
+    "kind": "cards",
+    "title": "UL 1778 取证与风险 · 详解 (1/2)",
+    "subtitle": "取证流程与认证驱动",
+    "cards": [
+     {
+      "title": "取证流程（UL 官网）",
+      "color": "teal",
+      "items": [
+       "提交 Request for Quote，提供技术资料与样品。",
+       "确认测试方案、样品数量与安排；样品数量资料未载明，需向 UL 确认。",
+       "完成测试后出具报告与 Follow-Up Services Procedure（FUS）。",
+       "获得 NoC、IPI 或 NoA 后方可使用 UL Mark；之后进行工厂定期检查与抽样。"
+      ]
+     },
+     {
+      "title": "认证驱动因素",
+      "color": "orange",
+      "items": [
+       "UL Solutions 认证页关联 NEC 645.11、700.12(E)、701.12(E)、708.20(G)，客户和 AHJ 常据此要求列名设备。",
+       "联合版 CSA C22.2 No.107.3-14 对应加拿大；IECEE 体系中美国差异为 UL 1778 第 5 版。",
+       "解读：NEC 条款与产品标准是两层要求，取证后仍需按安装场所逐项核对 NEC 适用性。"
+      ]
+     }
+    ],
+    "src": "UL Solutions 官网 UL 1778 页与 FAQ；Intertek SUN；Current/OS 路线图；无公开全文",
+    "conf": "B"
+   },
+   {
+    "kind": "cards",
+    "title": "UL 1778 取证与风险 · 详解 (2/2)",
+    "subtitle": "常见风险与应对",
+    "cards": [
+     {
+      "title": "风险",
+      "color": "red",
+      "items": [
+       "Scope 为 600 V a.c.，800 V DC 可能需单独路径；未获 UL 书面确认前，不能承诺证书范围。",
+       "无公开全文，试验参数须取得正式文本；二手参数（1 s/15 s、5 kA）不得直接引用。",
+       "电池取证（UL 1973）与 UPS 取证可能并行，周期较长；标准转向 UL 62040 时需重新评估。"
+      ]
+     },
+     {
+      "title": "应对（解读）",
+      "color": "green",
+      "items": [
+       "解读：立项即递交 Guide Card 问询，并把范围、测试项与周期写进项目计划。",
+       "解读：电池按 UL 1973 先行取证，并争取过充与通风豁免路径（5.3.102、HHH.7A）。",
+       "解读：关注 UL 62040-1/62477-1 采用进度，避免在过渡期重复评估。"
+      ]
+     }
+    ],
+    "src": "UL Solutions 官网 UL 1778 页与 FAQ；Intertek SUN；Current/OS 路线图；无公开全文",
+    "conf": "B"
+   }
+  ]
+ }
+]

@@ -1,0 +1,226 @@
+[
+ {
+  "k": "ul_roadmap|2|0",
+  "req": "配电设备类 800 VDC 缺口 5 项：UL 1558、UL 1008、UL 1400-1 OOI/-2（FMP）、DC sidecar（TBD）；第 5 项幻灯片未逐一写明",
+  "why": "该类 11 项中 6 项已覆盖、5 项有缺口（附录统计）。缺口具体指电压额定还是试验方法，资料未写明，需向 UL 确认。",
+  "verify": "状态表：UL 1558、UL 1008 为 CRD（Starting）；FMP 为 CRD（行业/codes）；DC sidecar 为 New OOI。向 UL 索取对应 CRD/OOI。",
+  "pitfall": "解读：缺口项尚无成文要求时，规格书别写“符合 UL 1558 的 800 VDC 要求”；先确认 CRD 是否已发布及适用范围。",
+  "cite": "Current/OS 峰会资料(©2026) UL Standards gaps 页，原文，B"
+ },
+ {
+  "k": "ul_roadmap|2|1",
+  "req": "电源类缺口 1 项：UL 1778（DC UPS）；动作 Guide Card，状态 Starting，长期目标 UL 62040-5-1；现以 UL 1012 + UL 1778 组合对应",
+  "why": "电源/变换器类共 3 项，覆盖 2、缺口 1。DC UPS 先靠 Guide Card 给出过渡路径，再转向 UL 62040-5-1。",
+  "verify": "查 Product iQ 中对应 CCN 的 Guide Information；IEC 对应为 62040-5-1、62040-1、62477-1（路线图映射表）。",
+  "pitfall": "解读：Guide Card 不是共识标准，长期目标也未定稿；800 VDC 取证现用哪份文件、何时转换，需向 UL 确认。",
+  "cite": "Current/OS 峰会资料(©2026) UL Standards gaps、Overview of updates 页，原文，B"
+ },
+ {
+  "k": "ul_roadmap|2|2",
+  "req": "过流保护类缺口 6 项：UL 248 DC 熔断器（-4/-8/-10/-12/-15）、DC AFCI、DC GFCI、隔离监测（非 EV）、UL 1053、NGR 监测",
+  "why": "该类 12 项覆盖 6、缺口 6，为全表最多。解读：DC 无自然过零，熔断、分断与故障检测难度高。",
+  "verify": "状态表：UL 248 DC 熔断器为 CRD（TC 任务组进行中）；AFCI、GFCI、隔离监测、NGR 监测为 New OOI（Starting）；UL 1053 为 CRD。",
+  "pitfall": "解读：DC AFCI/GFCI 等尚无成文标准，OOI 正文不公开；选型时要求供应商给出 OOI/CRD 状态，勿当作已认证。",
+  "cite": "Current/OS 峰会资料(©2026) UL Standards gaps 页，原文，B"
+ },
+ {
+  "k": "ul_roadmap|2|3",
+  "req": "接地类缺口 1 项：UL 467 接地与连接设备；动作 CRD，状态 Starting；该类仅 1 项标准，覆盖 0、缺口 1",
+  "why": "接地配置被列为跨品类“DC 系统需求”之一（间距、线径、含储能器件、冷却、接地配置）；该类覆盖为 0。",
+  "verify": "UL 467 的 CRD 内容未公开；需向 UL 确认 CRD 发布时间，以及覆盖哪些接地方案（如 ±400 V 中点接地）。",
+  "pitfall": "解读：接地方式会改变对地电压与绝缘配合取值；先定接地方案，再追认证条款，避免返工。",
+  "cite": "Current/OS 峰会资料(©2026) UL Standards gaps、Requirements for DC Systems 页，原文，B"
+ },
+ {
+  "k": "ul_roadmap|2|4",
+  "req": "解读：连接器类缺口 5 项 = UL 1977、UL 1681、UL 1682、LVDC Litz PDU2 连接器、Litz J-box 连接器（拆分计数为本手册推断）",
+  "why": "该类 11 项覆盖 6、缺口 5。母线插接与销套连接器是 800 VDC 机架供电的触点界面，电弧与温升更受关注（解读）。",
+  "verify": "状态表：UL 1977、UL 1681/1682 为 CRD（Starting）；两项 Litz 连接器为 New OOI（In-process）。1681/1682 是否各计 1 项，需核对。",
+  "pitfall": "解读：幻灯片把 1681/1682 并列一行，计数口径为推断；连接器 DC 分断与电弧能力需向 UL 确认，别套用 AC 额定。",
+  "cite": "Current/OS 峰会资料(©2026) UL Standards gaps 页，解读，B"
+ },
+ {
+  "k": "ul_roadmap|2|5",
+  "req": "线缆类缺口 1 项：数据中心液冷线缆，动作 New OOI，状态 In-process，编号 TBD；该类 4 项中 3 项已覆盖",
+  "why": "同类另有 UL 817A OOI、UL 2137 OOI（客户试点）与超导电缆（New OOI）；液冷线缆属新增品类。",
+  "verify": "无成文标准，只能走 OOI 取证；向 UL 确认液冷线缆 OOI 的编号、适用范围与发布时间（状态表仅标 TBD）。",
+  "pitfall": "解读：液冷线缆同时涉及电气、流体与材料，评估范围资料未写明；勿用普通电缆认证替代。",
+  "cite": "Current/OS 峰会资料(©2026) UL Standards gaps、Overview of updates 页，原文，B"
+ },
+ {
+  "k": "ul_roadmap|2|6",
+  "req": "两项：UL 62368-1（算力机架/行设备：GPU、shelf、server），动作 CRD；UL RP 2986（测量入射能量暴露），CRD，Starting",
+  "why": "用电设备类覆盖为 0。UL 62368-1 Scope 为额定电压不超过 600 V（IEC Clause 1 原文），与 800 VDC 的关系需向 UL 确认。",
+  "verify": "UL 62368-1 条款核对见本手册该标准各页；UL RP 2986 的内容本组未取得，需向 UL 确认其适用范围。",
+  "pitfall": "解读：“(2)”= 用电类缺口 1 + 参考类缺口 1；参考类 2 项中 UL 840 视为已覆盖，勿误读成两项都缺口。",
+  "cite": "Current/OS 峰会资料(©2026) UL Standards gaps、Gap analysis 页，原文，B"
+ },
+ {
+  "k": "ul_roadmap|3|0",
+  "req": "CRD = Certification Requirement Decision：UL Solutions 的官方决定，建立新的或修订的产品安全要求",
+  "why": "资料称“标准共识流程对这些创新太慢”；路线图中以 CRD 推进的项目，幻灯片计数为 8 项。",
+  "verify": "向 UL 确认适用的 CRD 编号与生效范围；解读：把 CRD 全文及日期写入测试计划和报告引用。",
+  "pitfall": "解读：CRD 不是共识标准，也不等于标准修订；标准正式更新后要求可能变化，需保留 CRD 版本与日期。",
+  "cite": "Current/OS 峰会资料(©2026) Expediting support 页，原文，A"
+ },
+ {
+  "k": "ul_roadmap|3|1",
+  "req": "常在标准正式更新前促成新技术采用，提供即时合规路径，针对具体技术、性能或安全问题",
+  "why": "状态表中 UL 1558、1008、1053、467、1977、1681/1682、RP 2986 均为 CRD（Starting）。解读：属 800 VDC 的短期通道。",
+  "verify": "在 Overview of updates 页核对该项 Action 是否为 CRD 及 Status；时间窗归属需对原图（版面提取乱序）。",
+  "pitfall": "解读：CRD 针对具体问题、适用范围窄；产品技术超出 CRD 描述范围时，需向 UL 另行确认。",
+  "cite": "Current/OS 峰会资料(©2026) Expediting support、Overview of updates 页，原文，A"
+ },
+ {
+  "k": "ul_roadmap|3|2",
+  "req": "OOI = Outline of Investigation：UL 自有的非共识文件，含尚无正式标准的产品、元件或系统的认证要求",
+  "why": "路线图中多项缺口走 New OOI：DC AFCI/GFCI、隔离监测、NGR 监测、Litz 连接器、液冷线缆等（幻灯片计数 10，自数 12）。",
+  "verify": "OOI 由 UL 拥有、正文不公开：向 UL 申请取得对应 OOI，按其试验要求送样，报告引用 OOI 编号。",
+  "pitfall": "解读：外部难以预审 OOI 条款；项目早期就向 UL 确认 OOI 编号、版本与测试范围，避免方案推翻重来。",
+  "cite": "Current/OS 峰会资料(©2026) Expediting support 页，原文，A"
+ },
+ {
+  "k": "ul_roadmap|3|3",
+  "req": "用于评估新兴技术或专门产品，测试并授予 UL 安全认证标志（Mark）",
+  "why": "UL 3001D（DC 微电网）、UL 2140、UL 2755、UL 2137 在状态表中均为 OOI，覆盖微电网、预制配电与模块化数据中心。",
+  "verify": "在 Product iQ 按 CCN 查 Guide Information，确认该 OOI 认证带哪种 Mark、适用哪些标准与限制。",
+  "pitfall": "解读：OOI 认证不等于符合某共识标准；采购与保险资料要写明依据是 OOI，避免被误读为 ANSI 标准。",
+  "cite": "Current/OS 峰会资料(©2026) Expediting support、Overview of updates 页，原文，A"
+ },
+ {
+  "k": "ul_roadmap|3|4",
+  "req": "CCN = Category Control Number：UL 分配的四字母代码，按安全标准与预期用途对产品和元件分类",
+  "why": "路线图新增 CCN：UL 508（DC 母线 DC busbar）与 UL 1741（DC/DC 变换器），状态均为 Starting。",
+  "verify": "在 Product iQ 输入 CCN 查 guide 信息，核对适用标准；解读：认证文件上的 CCN 可用来对照。",
+  "pitfall": "解读：新 CCN 刚起步（Starting），Product iQ 中可能尚无完整 Guide；以 UL 书面确认为准。",
+  "cite": "Current/OS 峰会资料(©2026) Expediting support、Overview of updates 页，原文，A"
+ },
+ {
+  "k": "ul_roadmap|3|5",
+  "req": "CCN 可在 Product iQ 数据库查到 guide 信息，便于监管者与制造商快速核对合规",
+  "why": "资料称便于监管者核对；OCP 目标之一是“Clarity for insurance and permitting”，800 VDC 新品类更依赖此渠道。",
+  "verify": "步骤：取得产品 CCN，在 Product iQ 查 Guide Information，核对适用标准、使用限制、安装要求与 Mark。",
+  "pitfall": "解读：Product iQ 内容随认证更新，需注明查询日期；查不到时向 UL 确认，不要推定已认证或未认证。",
+  "cite": "Current/OS 峰会资料(©2026) Expediting support、Data Centers in the IEC world 页，原文，A"
+ },
+ {
+  "k": "ul_roadmap|3|6",
+  "req": "Guide Information 说明产品安全标准、使用限制与安装要求，界定认证范围、适用标准与所需 Mark，主要经 Product iQ 查看",
+  "why": "Guide 载明使用限制与安装要求；路线图中 DC UPS 以 Guide Card 方式推进（UL 1012 + UL 1778，Starting）。",
+  "verify": "逐项读 Guide：适用标准、使用限制、安装要求、Mark；对照设计的电压、接地方式与安装条件。",
+  "pitfall": "解读：Guide 的限制条件常被忽略；800 VDC 若不在 Guide 范围内，需向 UL 确认能否扩展，不要自行外推。",
+  "cite": "Current/OS 峰会资料(©2026) Expediting support 页，原文，A"
+ },
+ {
+  "k": "ul_roadmap|5|0",
+  "req": "估计耗时约 1 个月，目标完成 End of Q1；幻灯片未标注年份",
+  "why": "时间线把项目按 1 个月/3 个月/3–6 个月/6–9 个月分档，本档最快；哪些项目落入本档，版面提取乱序，需核对原图。",
+  "verify": "核对原图：把本档项目与 Overview of updates 状态表逐项对应；年份需向 UL 或 Current/OS 确认。",
+  "pitfall": "解读：End of Q1 是目标而非承诺；排进度时不要当作交付日期，预留余量。",
+  "cite": "Current/OS 峰会资料(©2026) Road map timeline 页，原文，B"
+ },
+ {
+  "k": "ul_roadmap|5|1",
+  "req": "估计耗时 3 个月，目标完成 Q2；幻灯片未标注年份",
+  "why": "第二档窗口，目标 Q2；各档对应的项目数未随档位写明，需对原图。",
+  "verify": "对原图确认本档项目清单；用 Overview of updates 的 Status（Starting 等）交叉核对进展。",
+  "pitfall": "解读：Starting 状态的项目可能跨档；把关键路径项目（如 DC 熔断器、sidecar）按保守窗口排期。",
+  "cite": "Current/OS 峰会资料(©2026) Road map timeline 页，原文，B"
+ },
+ {
+  "k": "ul_roadmap|5|2",
+  "req": "估计耗时 3–6 个月，目标完成 Q2–Q3；幻灯片未标注年份",
+  "why": "第三档窗口，跨两个季度，不确定性大于前两档；归属项目需对原图。",
+  "verify": "对原图确认本档项目；向 UL 确认各项目的当前状态与是否仍按此窗口。",
+  "pitfall": "解读：区间越宽越难排产；宜取区间上限做计划，并设复核节点。",
+  "cite": "Current/OS 峰会资料(©2026) Road map timeline 页，原文，B"
+ },
+ {
+  "k": "ul_roadmap|5|3",
+  "req": "估计耗时 6–9 个月，目标完成 Q4；幻灯片未标注年份",
+  "why": "最长窗口。解读：时间线之后单列的“行业参与”项（DC 微电网等）周期更依赖外部共识。",
+  "verify": "对原图确认本档项目；年份与是否含行业参与项，向 Current/OS 或 UL 确认。",
+  "pitfall": "解读：Q4 目标若滑出，会影响整机认证节点；关键器件不要押注在最长窗口项目上。",
+  "cite": "Current/OS 峰会资料(©2026) Road map timeline 页，原文，B"
+ },
+ {
+  "k": "ul_roadmap|5|4",
+  "req": "解读：幻灯片计数 CRD 8、New CCN/Guide Card 3、New OOI 10、行业参与 6；归属哪个时间窗需核对原图",
+  "why": "本手册按状态表自数：CRD 10、New CCN/Guide Card 3、New OOI 12，与 8/10 不一致；差异原因资料未说明。",
+  "verify": "复算：状态表 Action=CRD 共 10 行（1681/1682 合并为一行）、New OOI 共 12 行；客户试点 3 项是否计入需核对。",
+  "pitfall": "解读：用计数反推工作量会失真；引用时写明“幻灯片计数”或“自数”，勿混用。",
+  "cite": "Current/OS 峰会资料(©2026) Road map timeline、Overview of updates 页，解读，B"
+ },
+ {
+  "k": "ul_roadmap|5|5",
+  "req": "时间线之后列出的行业参与项：DC 微电网、DC sidecar、Fault Managed Power、DC 支路熔断器、算力机架/行设备（共 5 条）",
+  "why": "与状态表“Industry”类对应：3001D（WG）、FMP 与 sidecar（codes）、UL 248 DC 熔断器（TC 任务组）、UL 62368-1（codes/TC）。",
+  "verify": "幻灯片写“行业参与 6”却只列 5 条，差 1 项；需核对原图或向 Current/OS 确认。",
+  "pitfall": "解读：这些项靠 IEC/TC/codes 协调，UL 无法单方定日期；进度表按最长窗口加余量。",
+  "cite": "Current/OS 峰会资料(©2026) Road map timeline、Overview of updates 页，原文，B"
+ },
+ {
+  "k": "ul_roadmap|5|6",
+  "req": "Live Poll Top5：DC 微电网 8%；DC sidecar（800VDC 输出）6%；DC/DC 变换器 6%；MV SST 5% 与固态断路器 5% 并列",
+  "why": "反映与会者优先级：微电网、sidecar、DC/DC、MV SST（UL 2877 OOI）、固态断路器（UL 489I）均在映射表中。",
+  "verify": "参与人数与样本构成资料未给出；引用百分比时注明是 Summit 现场投票，不代表 UL 排期。",
+  "pitfall": "解读：Top5 因并列实为 6 项；投票结果不等于时间窗，别据此推断标准发布顺序。",
+  "cite": "Current/OS 峰会资料(©2026) Poll Results 页，原文，B"
+ },
+ {
+  "k": "ul62368|1|0",
+  "req": "适用于 A/V、信息与通信技术设备及办公设备，额定电压不超过 600 V；本标准不含设备性能或功能特性要求",
+  "why": "按 Scope 字面，额定 800 V 大于 600 V 上限；800V 母线设备适用哪条路径，需向 UL 确认。",
+  "verify": "取 UL 62368-1 Ed.4 正式文本 §1 与 Annex DVA/DVD，核对整机“额定电压”口径；向 UL 确认认证路径。",
+  "pitfall": "解读：整机额定电压与内部更高电压电路是否分开认定，资料未写明，需向 UL 确认，勿自行推断。",
+  "cite": "UL 62368-1 Ed.4（IEC 62368-1:2023）§1，原文，A"
+ },
+ {
+  "k": "ul62368|1|1",
+  "req": "NOTE 2：额定电压 600 V 视为包含额定 400/690 V 的设备",
+  "why": "说明 600 V 是按系统电压档位归并（Table 12 的 600 V 行含 400/690 V 三相，Skyworks）；对 800V DC 无数值延伸。",
+  "verify": "NOTE 属资料性，无独立试验；核对铭牌额定电压写法与系统类型（三相 400/690 V）是否对应 Table 12 的 600 V 行。",
+  "pitfall": "解读：NOTE 2 只涉及交流系统；不要据此把 800 V DC 当作“包含”，是否可类推需向 UL 确认。",
+  "cite": "UL 62368-1 Ed.4（IEC 62368-1:2023）§1 NOTE 2，原文，A"
+ },
+ {
+  "k": "ul62368|1|2",
+  "req": "范围也含：元件与子组件（只要整机合规）、外部电源单元、附件、限制接触区大型设备、热带与户外设备（见 Annex Y）",
+  "why": "800V 电源架或电源模块可能以“子组件”或“外部电源单元”身份评估；整机仍须合规（原文：整机合规为前提）。",
+  "verify": "子组件用元件认证证据加整机合规证明；户外设备按 Annex Y 构造要求（Annex Y：户外外壳）核对。",
+  "pitfall": "解读：以“子组件无需满足每一条”为由省略评估易被退回；户外与热带条件须在报告中声明。",
+  "cite": "UL 62368-1 Ed.4（IEC 62368-1:2023）§1，原文，A"
+ },
+ {
+  "k": "ul62368|1|3",
+  "req": "文件假设最大海拔 2000 m（制造商另有规定除外）；更高海拔时间隙与试验电压按 §5.4.2.5 乘 Table 16 倍数",
+  "why": "数据中心常要求 3000 m（Open Rack v3）乃至 5000 m（Skyworks）：倍数 1.14、1.48，800V 间隙显著增大。",
+  "verify": "把设计海拔写入技术文件并声明；间隙与电气强度试验电压都按 Table 16 倍数重算。",
+  "pitfall": "解读：未声明海拔即默认 2000 m；Ed.4 前言把 5.4.2.5 列入“in some countries”条款，UL 差异需核对。",
+  "cite": "UL 62368-1 Ed.4（IEC 62368-1:2023）§1、§5.4.2.5，原文，A"
+ },
+ {
+  "k": "ul62368|1|4",
+  "req": "不适用于不属设备组成部分的电源系统，如电动发电机组、电池备用系统、配电变压器",
+  "why": "独立的 BBU/电池系统被排除，须另按 UL 1973 等评估（美国差异 1DV）；配电变压器同理。",
+  "verify": "判定电池或变压器是否“设备组成部分”：随机架供电的单元与独立柜式系统分别判定，保留判定依据。",
+  "pitfall": "解读：“组成部分”无数值判据，边界需向 UL 确认；机架内 BBU 与独立电池柜易被不同对待。",
+  "cite": "UL 62368-1 Ed.4（IEC 62368-1:2023）§1，原文，A"
+ },
+ {
+  "k": "ul62368|1|5",
+  "req": "不适用：非自含的危险运动部件设备（如机器人设备）、个人护理机器人、室内潮湿场所设备",
+  "why": "对 800V 电力设备影响小；仅当配套含机器人式运动部件的设备时才需关注（解读）。",
+  "verify": "核对设备类别；原文 NOTE 6 指向 IEC 60204-1、60204-11、ISO 10218-1/-2，NOTE 7 指向 ISO 13482。",
+  "pitfall": "解读：液冷机房的潮湿条件是否触及“室内潮湿场所”排除，资料未写，需向 UL 确认。",
+  "cite": "UL 62368-1 Ed.4（IEC 62368-1:2023）§1 NOTE 6/7，原文，A"
+ },
+ {
+  "k": "ul62368|1|6",
+  "req": "未涉及：制造过程（例行试验除外）、分解或燃烧气体伤害、处置、运输与储存影响、ESD、电磁场暴露、环境方面、功能安全（工作单元除外）等",
+  "why": "800V 保护与联锁的功能安全不在本标准内，需另用其他标准，适用哪份需向 UL 确认。",
+  "verify": "按认证清单列出这些项目所用的其他标准或证据（如 EMC、环境、运输试验）。",
+  "pitfall": "解读：“不涉及”不等于“无要求”；客户或法规仍可能要求这些证据，别在报告范围中遗漏。",
+  "cite": "UL 62368-1 Ed.4（IEC 62368-1:2023）§1，原文，A"
+ }
+]

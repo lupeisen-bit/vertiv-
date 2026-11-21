@@ -1,0 +1,90 @@
+[
+ {
+  "k": "ul2877|0",
+  "slides": [
+   {
+    "kind": "cards",
+    "title": "UL 2877 OOI 概览 · 详解 (1/3)",
+    "subtitle": "版本、性质与 Scope",
+    "cards": [
+     {
+      "title": "版本与性质",
+      "color": "teal",
+      "items": [
+       "UL 2877 Ed.5 发布于 2025-04-28，共 42 页（ANSI、DIN Media 列示）；历史版本 2014-12、2016-07、2019-04、2022-01（Accuris）。",
+       "性质：UL 自有的非共识 OOI（Outline of Investigation），用于尚无正式标准的产品，条款归 UL 所有，正文不公开。",
+       "路线图归类 Source 类，IEC 对应 IEC 62477-2（TC 22）；该 IEC 标准范围按 IEC Webstore 为 1000 Vac/1500 Vdc 至 36 kV AC/54 kV DC。"
+      ]
+     },
+     {
+      "title": "Scope 逐条（原文）",
+      "color": "orange",
+      "items": [
+       "§1.1：输入额定 ac 或 dc、高于 1000 V 至 38 kV；输出额定 ac 或 dc，至 38 kV（原文 up to 38 kV，未写下限）。",
+       "§1.2：这些电源可含一个或多个归类为 SELV 的电路；§1.3：涵盖按 NEC 用于普通场所的设备。",
+       "§1.4：也涵盖装入设备的开放型或部分封闭型电源，整机依本 OOI 或其他 MV 设备标准评估。",
+       "解读：§1.3 只写普通场所，危险场所需另行评估，原文未给覆盖。"
+      ]
+     }
+    ],
+    "src": "ANSI Webstore / Accuris / DIN Media（UL 2877 Ed.5 Scope）；UL 新闻稿 2026-09-24；IEC Webstore 62477-2；Current/OS 路线图；UL 正文不公开",
+    "conf": "A"
+   },
+   {
+    "kind": "cards",
+    "title": "UL 2877 OOI 概览 · 详解 (2/3)",
+    "subtitle": "UL 认证项目（2026-09-24 新闻稿）",
+    "cards": [
+     {
+      "title": "项目定义与目的",
+      "color": "teal",
+      "items": [
+       "UL 推出基于 UL 2877 的 MV 固态电源单元（MV SST）认证项目，亦称 MV 固态变压器，用电力电子降压，功能类似传统变压器。",
+       "产品作用是把电网 MV AC 直接转换为数据中心用较低压 DC，减少转换级数，支撑数据中心由 400 V AC 向 800 V DC 过渡。",
+       "针对风险：大功率设备相关的电气风险与火灾风险。"
+      ]
+     },
+     {
+      "title": "评估与试验范围",
+      "color": "orange",
+      "items": [
+       "评估范围：电气保护、绝缘、接地、外壳、安全联锁、接线、产品标记，共七类。",
+       "试验：高温、过大电气负荷（过载）、电压尖峰、短路电流四类。",
+       "试验电压、时间、倍数与判据在新闻稿中均未给出，需向 UL 索取正式文本。",
+       "解读：新闻稿未列 DC 电弧闪光与电容性故障评估，800V 输出侧这两项是否在项目内需向 UL 确认。"
+      ]
+     }
+    ],
+    "src": "ANSI Webstore / Accuris / DIN Media（UL 2877 Ed.5 Scope）；UL 新闻稿 2026-09-24；IEC Webstore 62477-2；Current/OS 路线图；UL 正文不公开",
+    "conf": "A"
+   },
+   {
+    "kind": "cards",
+    "title": "UL 2877 OOI 概览 · 详解 (3/3)",
+    "subtitle": "与 800V 的关系",
+    "cards": [
+     {
+      "title": "资料明确的内容",
+      "color": "green",
+      "items": [
+       "新闻稿明确：项目支持 MV AC 到 800 VDC 的直接转换设备。",
+       "§1.1 输出至 38 kV，解读：800 V DC 输出在输出范围内，DC 输入从 1000 V 起即属 MV；该解读需向 UL 确认。",
+       "路线图 Source 类 5 项标注均覆盖 800 VDC（缺口 0）；Current/OS 投票中 MV SST 占 5%，与 SSCB 并列（Top 5 末位）。"
+      ]
+     },
+     {
+      "title": "需向 UL 确认",
+      "color": "red",
+      "items": [
+       "UL 2877 正文不公开，具体条款与限值以正式文本为准。",
+       "800 V DC 输出侧的 DC 电弧与电容性故障要求，资料未写，需向 UL 确认评估方法与判据。",
+       "证书与 CCN 形式、UL Mark 类型与 Guide Information 内容需向 UL 确认。"
+      ]
+     }
+    ],
+    "src": "ANSI Webstore / Accuris / DIN Media（UL 2877 Ed.5 Scope）；UL 新闻稿 2026-09-24；IEC Webstore 62477-2；Current/OS 路线图；UL 正文不公开",
+    "conf": "A"
+   }
+  ]
+ }
+]

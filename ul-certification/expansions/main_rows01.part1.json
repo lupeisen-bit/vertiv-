@@ -1,0 +1,282 @@
+[
+ {
+  "k": "main|谁在做什么：标准 · 认证 · 监管|0",
+  "req": "UL 标准发布方：维护 ANSI/UL 共识标准，受理修订提案（CSDS），组织技术委员会（TC）投票，并通过 ShopULStandards 销售标准文本。",
+  "why": "800V DC 的范围缺口最终靠修订写入标准，标准文本、版本、提案都在这一侧发布。",
+  "verify": "在 ShopULStandards 查当前版本、修订日期和 Summary of Topics；关注相关修订提案。",
+  "pitfall": "把发布方当认证方；买了标准文本不等于产品获证，认证要找 UL Solutions 等 NRTL。",
+  "cite": "UL Standards & Engagement、UL Solutions 官网；OSHA NRTL 页面；A"
+ },
+ {
+  "k": "main|谁在做什么：标准 · 认证 · 监管|1",
+  "req": "测试认证机构：按标准测试评审，签发 Listing、Recognition、Classification 等证书，并以 Follow-Up Services 做工厂持续检查。",
+  "why": "项目号、File No.、CCN、证书出自这一侧；800V DC 是否受理、走 CRD 还是 OOI 由其答复。",
+  "verify": "在 Product iQ 核对证书；适用性问题向 UL 项目工程师书面提问，并留存答复。",
+  "pitfall": "以口头答复为依据；路径条件需向 UL 确认：书面回复里的标准、条款、电压范围。",
+  "cite": "UL Standards & Engagement、UL Solutions 官网；OSHA NRTL 页面；A"
+ },
+ {
+  "k": "main|谁在做什么：标准 · 认证 · 监管|2",
+  "req": "OSHA 认可 NRTL 对产品认证；29 CFR 1910.399 把 approved 定义为经 NRTL 接受、认证、列名或标记。UL Solutions 是 NRTL 之一。",
+  "why": "美国现场验收看是否经 NRTL 认证到适用标准；800V DC 无适用标准时需另走 CRD、OOI 等路径。",
+  "verify": "到 OSHA NRTL 页面核对机构及其认可范围，再核对证书所涉标准与产品类别。",
+  "pitfall": "把“有 UL 标签”等同合规；Recognized 部件标志不等于终端产品已被 NRTL 列名。",
+  "cite": "OSHA NRTL 页面；29 CFR 1910.399（eCFR）；UL Solutions 官网；A"
+ },
+ {
+  "k": "main|谁在做什么：标准 · 认证 · 监管|3",
+  "req": "解读：AHJ 即有管辖权的机构，如地方电气检查员、消防、保险方，按 NEC、NFPA 等规范在现场验收，并决定是否接受设备。",
+  "why": "800V DC 缺乏成熟安装惯例，Field Evaluation 或 OOI 证书最终是否被接受取决于 AHJ。",
+  "verify": "内部建议：项目早期把 Listing 证书、标签、安装说明提交 AHJ 预审，并留存书面意见。",
+  "pitfall": "拿到 UL 报告就假设放行；各地采用的规范版本和接受度不同，需逐地确认。",
+  "cite": "OSHA NRTL 与 UL Solutions 说明；AHJ 作用为解读，非 UL 原文，B"
+ },
+ {
+  "k": "main|标准有哪几类|0",
+  "req": "标题页冠 ANSI/UL 编号，经共识流程制定，含技术委员会投票与公开修订；如 UL 1741、UL 1973、UL 9540、UL 1066。",
+  "why": "800V DC 缺口长期靠修订写入标准；例如 UL 1973 有 2026 年处理 >600 Vdc 电池系统间距的修订提案。",
+  "verify": "在 ShopULStandards 看版本日期与 Summary of Topics，订阅变更，并核对证书所依据的版本。",
+  "pitfall": "只看标准号不看版本；UL 1449 的 2025-10-21 修订在 Intertek 生效日为 2027-10-21，各机构生效日不同。",
+  "cite": "ShopULStandards 标题页；UL 1973、UL 1449 公开资料；A"
+ },
+ {
+  "k": "main|标准有哪几类|1",
+  "req": "标题页并列 UL 与 CSA C22.2 编号，部分还有 NMX-J 编号，如 UL 489 / CSA C22.2 No.5 / NMX-J-266-ANCE；UL 857 / No.27；UL 891 / No.244。",
+  "why": "同销美加墨时可一套文件对齐多国；UL 857 第 14 版 Scope 由 ≤600 V 扩到 ≤1000 V，需跟踪生效日。",
+  "verify": "查标题页的联署号与版本日期，到 Intertek SUN 等核对生效日（UL 857 为 2027-09-10）。",
+  "pitfall": "假设条款号处处一致；UL 489 的 Section 80 与 Annex B 仅适用加拿大，联署标准仍有区域条款。",
+  "cite": "ShopULStandards 标题页；UL 489、UL 857 公开资料；A"
+ },
+ {
+  "k": "main|标准有哪几类|2",
+  "req": "标题如 UL 62368-1，正文基于 IEC 原文并附美国国家差异；UL 62368-1 Ed.4（2025-07-31）采用 IEC 62368-1:2023。",
+  "why": "UL 62368-1 Scope 为额定电压不超过 600 V（原文），800V DC 超限，路线图把它列入 800VDC 缺口。",
+  "verify": "对照 IEC 原文与 UL 美国差异；核对 Ed.4 生效日（Intertek SUN：2027-02-15）与证书版本。",
+  "pitfall": "只读 IEC 条款漏看国家差异；Ed.4 起 IEC 60950-1/60065 认证元件不再免评。",
+  "cite": "UL 62368-1 Ed.4 公开资料；IEC 62368-1:2023 前言；Intertek SUN；A"
+ },
+ {
+  "k": "main|标准有哪几类|3",
+  "req": "Outline of Investigation：UL 自有、无共识委员会，用于尚无正式标准的产品；如 UL 2877（输入 >1000 V 至 38 kV）、UL 2140、UL 2755。",
+  "why": "800V 新拓扑可能只有 OOI 路径；UL 2140、UL 2755 公开 Scope 未写电压范围，800V DC 适用须确认。",
+  "verify": "向 UL 申请 OOI 文本并确认版本；核对路线图状态（UL 2140、UL 2755 为 Customer pilots）。",
+  "pitfall": "以为有公开全文；UL 2877 正文不公开。需向 UL 确认：800V DC 是否可纳入 2140/2755。",
+  "cite": "UL 2877、UL 2140、UL 2755 公开页面；UL 800VDC 路线图；A"
+ },
+ {
+  "k": "main|标准有哪几类|4",
+  "req": "Certification Requirement Decision：UL Solutions 的官方判定，建立新增或修订要求，让新技术在标准更新前有合规路径，随项目引用。",
+  "why": "路线图把 UL 1558、UL 1977 等 800VDC 缺口的动作列为 CRD；它是现有标准覆盖 800V DC 的快速手段。",
+  "verify": "向 UL 项目工程师索取适用 CRD 的编号与文本，写入测试计划和报告引用清单。",
+  "pitfall": "把 CRD 当标准；内部建议：记录编号与日期，标准升版后复核是否仍有效，并不要假设公开可得。",
+  "cite": "UL 800VDC 路线图（Current/OS 2026）对 CRD 的定义；A"
+ },
+ {
+  "k": "main|标准有哪几类|5",
+  "req": "Product iQ 中某 CCN 对应的 Guide Information：说明该类别的范围、适用标准、使用要求、标志样式与通用 CofA。",
+  "why": "用它判断某类产品能否用于 800V DC、能否作元器件；路线图也把 Guide Card 列为加速工具。",
+  "verify": "在 Product iQ 按 CCN 搜索，读 Scope、Ratings、Marking 等内容，截图存档并记录日期。",
+  "pitfall": "只看供应商型号页不读 Guide Info；类别说明没写 DC 范围时，需向 UL 确认：是否覆盖 800 Vdc。",
+  "cite": "UL Solutions 对 CCN 与 Guide Information 的说明；UL 800VDC 路线图；A"
+ },
+ {
+  "k": "main|证书有哪几类：Listing / Recognition / Classification / Field Evaluation|0",
+  "req": "完整成品按适用标准评估合格，用于现场安装；标志含 UL 符号、Listed、产品名与控制号，须按标注额定与说明书使用。",
+  "why": "整机电源架、配电柜等多需 Listing 才便于 AHJ 接受；标准 Scope 不覆盖 800V DC 时需 CRD 或 OOI。",
+  "verify": "在 Product iQ 核对 File No.、CCN、型号、额定值与标志，确认实物型号、工厂在证书范围内。",
+  "pitfall": "以为 Listing 覆盖外部负载与现场加装件；Listed 与非 Listed 部分（如开关板分段）混装需分别确认。",
+  "cite": "UL Solutions 的 Listed/Recognized/Classified 说明；Product iQ 类别说明；A"
+ },
+ {
+  "k": "main|证书有哪几类：Listing / Recognition / Classification / Field Evaluation|1",
+  "req": "元器件或子组件在限定条件下评估，供 UL 认证的终端产品内使用，不能单独作终端产品；CofA 规定额定与使用限制。",
+  "why": "800V DC 的整流/DC-DC 模块、PCB、塑料多为 Recognized，CofA 常限定电压与安装方式，须在整机验证。",
+  "verify": "取 Product iQ 记录或 iCoC，把每条 CofA 写入需求追溯矩阵，并在整机测温升、绝缘、间距。",
+  "pitfall": "见到黄卡标志就当整机合规；忽略 CofA 是最常见的失败，且 DC 额定可能缺失。",
+  "cite": "UL Solutions 的 Listed/Recognized/Classified 说明；Product iQ 类别说明；A"
+ },
+ {
+  "k": "main|证书有哪几类：Listing / Recognition / Classification / Field Evaluation|2",
+  "req": "仅就特定属性、有限危害或特定使用条件评估；UL Classified 标志含 Classified、评估范围声明、产品名与控制号。",
+  "why": "800V DC 项目里的特定性能或属性证明属此类，只证明被评估的那一项，不证明整机电气安全。",
+  "verify": "读标志上的范围声明与 Product iQ 记录，核对被评估的属性是否正是你需要的。",
+  "pitfall": "把 Classified 当全面安全认证；范围声明之外的危害没有被评估。",
+  "cite": "UL Solutions 的 Listed/Recognized/Classified 说明；Product iQ 类别说明；A"
+ },
+ {
+  "k": "main|证书有哪几类：Listing / Recognition / Classification / Field Evaluation|3",
+  "req": "UL 提供的现场评估服务：对已安装或现场改装的产品评估是否符合适用标准，供业主、承包商、监管方决定是否接受。",
+  "why": "800V DC 早期样机、定制配电可能没有 Listed 路径，Field Evaluation 可为试点提供评估数据。",
+  "verify": "向 UL 说明设备范围与拟用标准或 OOI，确认评估范围与报告形式；提前征询 AHJ。",
+  "pitfall": "把现场评估当批量证书；设备改动或搬迁后结果是否仍有效，需向 UL 确认。",
+  "cite": "UL 产品指南中 Field Evaluations 说明；UL Solutions 官网；A"
+ },
+ {
+  "k": "main|证书有哪几类：Listing / Recognition / Classification / Field Evaluation|4",
+  "req": "IEC 体系的 CB 证书与报告，可作为部分国家认证的基础；解读：北美仍须按 UL 标准与国家差异评估。",
+  "why": "出口项目常有 IEC 62368-1、IEC 62477-1 报告；UL 62368-1 Ed.4 带美国差异，且 Scope 上限 600 V。",
+  "verify": "核对 CB 报告基于的 IEC 版本与 UL 美国差异；需向 UL 确认：哪些 CB 数据可被采信。",
+  "pitfall": "把 CB 证书当美国准入；UL 与 IEC 的条款、试验、分类不同，没有互认。",
+  "cite": "UL 62368-1 Ed.4 资料；CB 部分为内部解读，B"
+ },
+ {
+  "k": "main|四个必须会查的标识符|0",
+  "req": "UL 为制造商/工厂建立的档案号，常以 E 开头（二手资料）；证书、标签、Product iQ 记录均带该号，认证标志也含 file number。",
+  "why": "它把供应商与具体证书绑定，是核对 800V DC 元器件是否真有认证的第一抓手。",
+  "verify": "在 Product iQ 按 File No. 搜索，核对公司名、工厂地址、型号、CCN、额定，并与标签一致。",
+  "pitfall": "内部建议：除号码外记录 CCN、型号、DC 额定；仅抄号码不能证明适用。",
+  "cite": "UL Product iQ、UL Solutions 说明（部分为二手资料）；B"
+ },
+ {
+  "k": "main|四个必须会查的标识符|1",
+  "req": "UL Solutions 分配的产品类别代码，用于在 Product iQ 查 Guide Information；如 UL 1449 的 VZCA（美）、VZCA2（Recognized）。",
+  "why": "同一标准常对应多个 CCN，Listed、Recognized、美加各异；选错类别会把元器件当整机。",
+  "verify": "Product iQ 搜 CCN 读 Guide Info；UL 1741 的 QIKH 为二手资料，需向 UL 核对适用 CCN。",
+  "pitfall": "凭 CCN 字面判断 DC 适用；UL 1741 的 DC/DC 路线图为 New CCN 计划，现成类别需向 UL 确认。",
+  "cite": "UL Product iQ、UL Solutions 说明（部分为二手资料）；B"
+ },
+ {
+  "k": "main|四个必须会查的标识符|2",
+  "req": "某 CCN 的类别说明，含范围、使用与安装要求、标志样式及通用 CofA；UL 称其说明认证范围与使用限制。",
+  "why": "回答该类别能否用于 800V DC、能否作元器件，是判断 Scope 的第一手公开依据。",
+  "verify": "Product iQ 打开 Guide Information，记录日期与关键句，与证书记录一并存档。",
+  "pitfall": "Guide Info 常不写 DC 电压范围；写不明时需向 UL 确认：该 CCN 是否覆盖 800 Vdc。",
+  "cite": "UL Product iQ、UL Solutions 说明（部分为二手资料）；B"
+ },
+ {
+  "k": "main|四个必须会查的标识符|3",
+  "req": "Product iQ 可下载的电子合格证，据说含标准号、CCN、额定值与 CofA（二手资料）；具体字段以 UL 实际文件为准。",
+  "why": "把 DC 额定与 CofA 固化为可归档证据，便于 BOM 评审与追溯。",
+  "verify": "内部建议：要求供应商提供 iCoC 或 Product iQ 截图，核对型号、额定、CofA 与设计一致。",
+  "pitfall": "需向 UL 确认：iCoC 的下载权限与字段；供应商旧文件可能与现行记录不同，须在 Product iQ 复核。",
+  "cite": "Product iQ 说明（二手资料，未核对 UL 原文）；B"
+ },
+ {
+  "k": "main|四个必须会查的标识符|4",
+  "req": "UL 对工厂持续检查的程序文件（FUS Procedure），随 Listing 发放，工厂与 UL 各持一份（二手）；解读：工厂按其生产与检验。",
+  "why": "它决定出货产品是否仍与证书一致；800V DC 产品的绝缘与耐压试验能力也在其约束内。",
+  "verify": "内部建议：建立 FUS 文件登记，变更材料、元件、工厂前先对照；细节需向 UL 确认。",
+  "pitfall": "只在首次认证时看一遍；变更后没同步 FUS，证书依据与实物不再一致。",
+  "cite": "UL Product iQ、UL Solutions 说明（部分为二手资料）；B"
+ },
+ {
+  "k": "main|认证不是一次性：Follow-Up Services 与变更管理|0",
+  "req": "含第二来源在内的元器件/材料替换：对照证书与 FUS 中的关键元器件，Recognized 器件需有等价认证记录且满足同样 CofA。",
+  "why": "800V DC 的断路器、熔断器、连接器、SPD 的 DC 额定各异，替换件无 DC 额定即失去认证依据。",
+  "verify": "内部建议：变更前比对 File No.、CCN、型号、DC 额定、CofA；是否需通知 UL 须向 UL 确认。",
+  "pitfall": "采购擅自换第二来源；“同规格”不等于同认证，AC 额定不能代替 DC 额定。",
+  "cite": "UL Solutions Follow-Up Services 说明；分工与频率为内部建议，非 UL 要求；B"
+ },
+ {
+  "k": "main|认证不是一次性：Follow-Up Services 与变更管理|1",
+  "req": "生产工厂或产线变更：新工厂需加入 FUS，检验与测试程序须重新确认；通知与审核要求需向 UL 确认。",
+  "why": "UL 1012 §59 要求每台出厂做生产线耐压，产线变更会影响该试验能力。",
+  "verify": "内部建议：NPI 阶段与 UL 对接工厂审核；需向 UL 确认：新工厂生效前能否以认证身份出货。",
+  "pitfall": "转产后沿用旧标签；工厂地址与范围须与证书记录一致，转产流程与时限需向 UL 确认。",
+  "cite": "UL Solutions Follow-Up Services 说明；分工与频率为内部建议，非 UL 要求；B"
+ },
+ {
+  "k": "main|认证不是一次性：Follow-Up Services 与变更管理|2",
+  "req": "额定、拓扑、保护方案变更（如升压、加储能电容、换保护器件），可能需补充测试、扩展报告或重新评估，范围由 UL 判定。",
+  "why": "800V DC 项目的电压、电流、极间接法与保护器件变化，会直接改变 DC 额定、间距与介电结论。",
+  "verify": "内部建议：ECR 加“影响认证”勾选并附新旧参数卡，由认证负责人向 UL 书面确认评估范围。",
+  "pitfall": "把小改当不影响认证；变更后 CofA、标志、说明书未同步。",
+  "cite": "UL Solutions Follow-Up Services 说明；分工与频率为内部建议，非 UL 要求；B"
+ },
+ {
+  "k": "main|认证不是一次性：Follow-Up Services 与变更管理|3",
+  "req": "UL 公布标准变更与生效日期，证书按新要求复评；各机构生效日可能不同。UL 62368-1 Ed.4 的 SUN 称已认证产品无需行动。",
+  "why": "800V 相关标准集中修订（UL 1973 提案、UL 1741 2026-08-14 修订、UL 857 第 14 版），窗口影响计划。",
+  "verify": "内部建议：跟踪人按登记表每季度复核版本与生效日，影响项记入路线图并向认证机构确认。",
+  "pitfall": "只看发布日不看生效日；UL 9540 修订生效日 Intertek 写 2027-03-07，CSA 通告写 2026-03-07。",
+  "cite": "UL Solutions Follow-Up Services 说明；分工与频率为内部建议，非 UL 要求；B"
+ },
+ {
+  "k": "main|认证不是一次性：Follow-Up Services 与变更管理|4",
+  "req": "涉及功能安全或保护功能的固件/软件变更，按相应标准或 CRD 要求复评；是否触发取决于该标准对软件的规定。",
+  "why": "解读：800V DC 的固态保护、BMS、限流逻辑依赖软件，变更可能改变保护动作与分断结论。",
+  "verify": "内部建议：把固件版本写入关键元器件清单与认证记录，变更前由认证负责人判断是否通知 UL。",
+  "pitfall": "只在发布说明里改版本号；UL 489 2025 版有可编程部件勘误 K14.4，软件要求须逐标准核对。",
+  "cite": "UL Solutions Follow-Up Services 说明；分工与频率为内部建议，非 UL 要求；B"
+ },
+ {
+  "k": "main|UL ↔ IEC 对应：没有“互认”，只有“可参照”|0",
+  "req": "UL 62368-1 以 IEC 62368-1:2023 为基础加美国差异，Ed.4 发布于 2025-07-31；加拿大 CSA C22.2 No. 62368-1:2025 并行。",
+  "why": "Scope 额定电压不超过 600 V（原文），800V DC 超限；路线图把 UL 62368-1 列入 800VDC 缺口。",
+  "verify": "读 IEC 前言与 UL 差异；向 UL 确认 800Vdc 电源架按本标准、CRD 还是其他路径受理。",
+  "pitfall": "以 IEC 条款号替代 UL 条款；IEC 更正版（2025-08）更新了 Table 4 的 ES1/ES2 稳态限值。",
+  "cite": "UL 800VDC 路线图（Current/OS 2026）；各标准 Scope 页；B"
+ },
+ {
+  "k": "main|UL ↔ IEC 对应：没有“互认”，只有“可参照”|1",
+  "req": "路线图对应 IEC 60947-2（SC121A）；UL 489 Preface 称采用 IEC 格式但不基于也不等同于 IEC。489G 已并入主标准。",
+  "why": "UL 489 §1.3 额定 ≤1000 V ac、≤1500 V dc，800 Vdc 在范围内；DC 试验见 §26.1.8–26.1.13 等。",
+  "verify": "按 Table 6.2 与极间串联拓扑核对 DC 额定，要求供应商提供 DC 额定记录。",
+  "pitfall": "拿 IEC 60947-2 报告当 UL 489 依据；条款、试验、分类不同，具体 800V 额定需向 UL 确认。",
+  "cite": "UL 800VDC 路线图（Current/OS 2026）；各标准 Scope 页；B"
+ },
+ {
+  "k": "main|UL ↔ IEC 对应：没有“互认”，只有“可参照”|2",
+  "req": "路线图对应 IEC 61439-2（SC121B）。UL 1558 为金属封闭低压动力断路器开关柜，UL 891 为 dead-front 开关板（§1.1.2）。",
+  "why": "UL 1558 §1.4 只写 ac，路线图列入 800VDC 缺口（CRD）；UL 891 §5.2.1 额定 ≤1000 V，路线图列为 DC switchboards。",
+  "verify": "读 UL 891 §6.2.1.2（DC 符号）与 §6.2.1.12（SCCR）；向 UL 索取 UL 1558 DC 额定相关 CRD。",
+  "pitfall": "混用两者；UL 891 §1.1.5 不覆盖 short-time current rating，开关柜与开关板影响维护与短时耐受。",
+  "cite": "UL 800VDC 路线图（Current/OS 2026）；各标准 Scope 页；B"
+ },
+ {
+  "k": "main|UL ↔ IEC 对应：没有“互认”，只有“可参照”|3",
+  "req": "UL 857 为母线槽及配件，路线图对应 IEC 61439-6（SC121B）；第 14 版（2025-09-10）Scope 上限 ≤1000 V、≤6000 A。",
+  "why": "路线图把 UL 857 列为 800 VDC busways and tap cans；Scope 未区分 AC/DC，DC 取值需向 UL 确认。",
+  "verify": "核对第 14 版 601–1000 V 间距与 Table 7.2 更新；索取厂商含 DC 额定的证书。",
+  "pitfall": "用旧版证书支持 800V（13 版 Scope 为 ≤600 V）；厂商资料称 Eaton DC 母线槽 600 Vdc UL。",
+  "cite": "UL 800VDC 路线图（Current/OS 2026）；各标准 Scope 页；B"
+ },
+ {
+  "k": "main|UL ↔ IEC 对应：没有“互认”，只有“可参照”|4",
+  "req": "UL 1973 为固定式储能电池系统，路线图对应 IEC 62619 与 IEC 63056（SC 21A）；评估滥用承受能力（§1.5），不评性能可靠性（§1.6）。",
+  "why": "路线图称 DC 通用要求缺口含间距与储能设备；2026-05-01 提案处理 >600 Vdc 电池系统间距与介电。",
+  "verify": "查 UL 官方页最新修订，确认提案是否生效；采用状态与定稿数值需向 UL 确认。",
+  "pitfall": "把 IEC 62619 报告当 UL 1973 结论；2022 版 §7.5 引用 UL 62368-1 或 UL 840，原用于不超过 600 V 设备。",
+  "cite": "UL 800VDC 路线图（Current/OS 2026）；各标准 Scope 页；B"
+ },
+ {
+  "k": "main|UL ↔ IEC 对应：没有“互认”，只有“可参照”|5",
+  "req": "UL 1741 覆盖 DER 用逆变器、变换器、充电控制器与 ISE，并网设备须结合 IEEE 1547（§1.2）；路线图对应 IEC 62109（TC 82）。",
+  "why": "路线图把 DC/DC converter 列为 UL 1741 的 New CCN，Starting；2021 版 Table 26.1 最高仅 600 V rms。",
+  "verify": "向 UL 确认 DC/DC 变换器适用 UL 1741 的 CCN 与 CRD；读 §6.2 与 §27 间距要求。",
+  "pitfall": "非并网 DC/DC 也套 IEEE 1547；是否需并网评估取决于产品，需向 UL 确认。",
+  "cite": "UL 800VDC 路线图（Current/OS 2026）；各标准 Scope 页；B"
+ },
+ {
+  "k": "main|UL ↔ IEC 对应：没有“互认”，只有“可参照”|6",
+  "req": "UL 508C 于 2020-02-01 撤销，由 UL 61800-5-1 取代；UL 1012 为非 Class 2 电源单元。路线图对应 IEC 62477-1 / 61800-5-1。",
+  "why": "UL 1012 §1.1 输入 ≤600 V；508C §1.3 为 ≤1500 V 但已撤销，新项目应按 UL 61800-5-1。",
+  "verify": "UL 1012 §43.1.1(c)：二次电路 >60 Vdc 且 <1000 V rms 时介电为 1000 V + 2×最大二次电压。",
+  "pitfall": "引用已撤销的 508C 条款；UL 61800-5-1 取代的是 508C，不等于取代 UL 1012。",
+  "cite": "UL 官网 UL 508C 过渡说明；UL 1012（2014 版）§43.1.1；路线图；A"
+ },
+ {
+  "k": "main|UL ↔ IEC 对应：没有“互认”，只有“可参照”|7",
+  "req": "UL 840 以绝缘配合原理给出间隙与爬电的替代方法（§1.1），路线图对应 IEC 60664-1 与 TS 62993；仅当产品标准引用才适用（§1.4）。",
+  "why": "800V DC 间距要看产品标准是否引用 UL 840：UL 1012 §35.2、UL 1973 §7.5.1 已引用；表 5.1 最高 1500 V rms and dc。",
+  "verify": "先读产品标准的引用条款，再按 UL 840 表查间隙爬电，并核对污染等级、海拔、过电压类别。",
+  "pitfall": "产品标准未引用就直接套表；第 3 版全文未核对，表格与适用条件不同于 IEC 60664-1。",
+  "cite": "UL 840 第 2 版全文与公开页面；UL 1012、UL 1973 引用条款；路线图；B"
+ },
+ {
+  "k": "main|UL ↔ IEC 对应：没有“互认”，只有“可参照”|8",
+  "req": "UL 1449 为浪涌保护器 SPD，路线图对应 IEC 61643 系列（SC 37A）；IEC 61643-41:2025 针对 ≤1500 V DC SPD，不含 PV。",
+  "why": "5 版 §1.1 正文仅列 AC ≤1000 V 与 PV ≤1500 V dc；通用 DC SPD 靠 Supplement SB（4 版 SB1.1 ≤1500 Vdc）。",
+  "verify": "查 Product iQ 中 VZCA、VZCA2 记录；向 UL 确认 5 版 SB 对 800 Vdc 的适用。",
+  "pitfall": "“缺口较多”缺少路线图依据：路线图未把 UL 1449 列为具名缺口，宜改为“需向 UL 确认”。",
+  "cite": "UL 800VDC 路线图（Current/OS 2026）；各标准 Scope 页；B"
+ },
+ {
+  "k": "main|为什么 800V DC 特殊：电压上限卡在 600V / 1000V / 1500V|0",
+  "req": "UL 1012 §1.1：输入额定 600 V 或以下，DC 与 AC，至少一个输出非 Class 2；§1.10 以维持交流连续性为主的系统归 UL 1778。",
+  "why": "800V DC 输入字面超出 §1.1；§1 未设输出限值，§35 间距表列到 15 kV，但受理需确认。",
+  "verify": "向 UL 确认：800 Vdc 输入或输出的电源架是否按 UL 1012 受理；读 §35 与 §43.1.1(c)。",
+  "pitfall": "只看输出电压就认为在范围内；输入侧 600 V 上限才是 Scope 门槛。",
+  "cite": "UL 1012（2014 版公开全文）§1.1、§1.10、§35；A"
+ }
+]

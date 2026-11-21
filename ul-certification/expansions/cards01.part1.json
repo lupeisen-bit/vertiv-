@@ -1,0 +1,160 @@
+[
+ {
+  "k": "ul_roadmap|0",
+  "slides": [
+   {
+    "kind": "cards",
+    "title": "UL 800VDC 路线图总览 · 详解 (1/3)",
+    "subtitle": "资料定位与 55 项缺口分析的构成",
+    "cards": [
+     {
+      "title": "资料定位",
+      "color": "teal",
+      "items": [
+       "核心资料是 Current/OS 为 IEC 标准化峰会准备的幻灯片（©2026），目的是把 UL 电力标准与 IEC 标准、TC 做对照，不是 UL 的正式标准文本。",
+       "幻灯片列出三项目标：Map standardization requirements and identify gaps in IEC standards；Define priorities；Agree on fast tracks and define actions。",
+       "范围为端到端（chip to grid），初期缺口分析以 800 VDC 为主，同时看了未来 1500 VDC。解读：1500 VDC 项目的结论资料未给出，不宜外推。",
+       "UL 2026-01-13 新闻稿称与 OCP、ABB、Eaton 启动 Codes & Standards 工作流；工作流的交付物与时间表需向 UL 确认。",
+       "UL 2026-10 文章称评审“60+ 电力标准”，幻灯片为 55 项。两个口径差异的原因资料未说明，引用数字时须注明出处，勿混用。"
+      ]
+     },
+     {
+      "title": "55 项缺口分析：清单来源",
+      "color": "green",
+      "items": [
+       "55 项由四部分相加：NVIDIA keynote 初始清单 12 项，Eaton 白皮书引用的标准再加 6 项，与 UL Solutions 电力首席工程师评审再加 32 项。",
+       "最后一部分是客户提出的新 UL 标准请求再加 5 项。12+6+32+5=55，幻灯片称之为“55x total power standards for data center applications”。",
+       "解读：清单含客户新增请求，说明它是“数据中心用电力标准清单”，不等于 UL 全部电力标准，也不代表每项都已有正式文本（含 OOI、TBD 项）。"
+      ]
+     }
+    ],
+    "src": "Current/OS IEC 标准化峰会幻灯片（2026）含附录 Gap analysis；UL 新闻稿 2026-01-13、2026-10-07；UL 文章 2026-10",
+    "conf": "B"
+   },
+   {
+    "kind": "cards",
+    "title": "UL 800VDC 路线图总览 · 详解 (2/3)",
+    "subtitle": "缺口结论与加速工具",
+    "cards": [
+     {
+      "title": "55 项缺口分析：结论与分类",
+      "color": "green",
+      "items": [
+       "幻灯片结论：55 项中 34 项已覆盖 800 VDC（>60%），21 项有缺口，并称其余项“更新已在进行”。34/55 约 62%，与 >60% 一致。",
+       "分类数（总数/覆盖/缺口）：Source 5/5/0，Switching/control 5/5/0，Distribution 11/6/5，Power supplies/converters 3/2/1。",
+       "Overcurrent/protection 12/6/6（缺口最多），Connectors 11/6/5，Cables/cords 4/3/1，Grounding/bonding 1/0/1，Power utilization 1/0/1，Reference 2/1/1。",
+       "“覆盖”的判据幻灯片未说明（是否含 OOI/CRD）；34 项覆盖不等于任何具体产品已合规，具体产品须向 UL 确认认证路径。"
+      ]
+     },
+     {
+      "title": "加速工具（UL Solutions 定义）",
+      "color": "orange",
+      "items": [
+       "CRD 是 UL Solutions 的官方决定，可在标准修订前建立新的或修订的安全要求，提供即时合规路径，针对具体技术、性能或安全问题。",
+       "OOI 是 UL 自有的非共识文件，含尚无正式标准的产品、部件或系统的认证要求，用于评估新兴技术并授予 UL 认证标志。",
+       "CCN 是 UL 分配的四字母代码，按适用安全标准与预期用途分类；可在 Product iQ 数据库查到 Guide Information，含适用标准、使用限制与安装要求。",
+       "解读：CRD 与 OOI 都不是共识标准，条款不一定公开；采用这些路径时应在合同中写明依据的是 CRD/OOI 的哪一版并向 UL 索取。"
+      ]
+     }
+    ],
+    "src": "Current/OS IEC 标准化峰会幻灯片（2026）含附录 Gap analysis；UL 新闻稿 2026-01-13、2026-10-07；UL 文章 2026-10",
+    "conf": "B"
+   },
+   {
+    "kind": "cards",
+    "title": "UL 800VDC 路线图总览 · 详解 (3/3)",
+    "subtitle": "时间窗、试点项目与 OCP 背景数据",
+    "cards": [
+     {
+      "title": "时间窗与试点项目",
+      "color": "orange",
+      "items": [
+       "时间线幻灯片给出四个窗口：约 1 个月（End of Q1）、约 3 个月（Q2）、3–6 个月（Q2–Q3）、6–9 个月（Q4）；幻灯片未标注年份，不做推断。",
+       "幻灯片计数为 CRD 8、New CCN/Guide Card 3、New OOI 10、行业参与 6；文字提取有乱序，各计数对应哪个窗口需核对原图。",
+       "状态表中 UL 2140、UL 2755、UL 2137 的动作均为 New OOI，状态为 Customer pilots，即在客户试点中，尚非公开成熟文本。",
+       "6–9 个月窗口列出 DC Microgrid、DC Sidecar、Fault Managed Power、DC Branch Circuit Fuses、Compute Rack/Row Equip.，均依赖行业共识。"
+      ]
+     },
+     {
+      "title": "OCP 背景数据（幻灯片引用）",
+      "color": "red",
+      "items": [
+       "McKinsey 中情景：到 2030 年 AI 资本开支 5.2 万亿美元，其中 IT 设备 3.3、数据中心基础设施 1.6、电力 0.3（单位万亿美元）。",
+       "推理（Inference）已超过训练并增长更快：35% CAGR 对 22%。幻灯片还提到链式推理、Agent 与自动化、大规模终端用户采用。",
+       "机架功率路径：2024 年 25 kW（480V AC/48V）、2026 年 125 kW（±400V DC sidecar）、2028 年 600 kW+（800V Native）、2030 年 1 MW+（1500V，幻灯片标 HTS）。",
+       "UL 文章称行业路线图显示 1 MW/机架可能在 2027–2028 年出现，并引用 NVIDIA 自 2027 年起支持 1 MW IT 机架的目标，与 OCP 的 2030 年口径不同。",
+       "解读：规划 800V 产品时以 UL 与 OCP 两个时间口径为区间，不宜单取一方；HTS 的含义幻灯片未展开，需向 OCP 或 Current/OS 确认。"
+      ]
+     }
+    ],
+    "src": "Current/OS IEC 标准化峰会幻灯片（2026）含附录 Gap analysis；UL 新闻稿 2026-01-13、2026-10-07；UL 文章 2026-10",
+    "conf": "B"
+   }
+  ]
+ },
+ {
+  "k": "ul_roadmap|7",
+  "slides": [
+   {
+    "kind": "cards",
+    "title": "Known Unknowns 与 70E · 详解 (1/2)",
+    "subtitle": "Known Unknowns：每项为何悬而未决",
+    "cards": [
+     {
+      "title": "Known Unknowns（电气与人员类）",
+      "color": "red",
+      "items": [
+       "DC arc flash：UL 文章称现有电弧闪光分析方法与保护假设主要由 AC 系统塑造，DC 电弧行为、持续时间、可用能量仍需研究。",
+       "电容性故障（Capacitive faults）：UL 文章列为 DC 需要理解的问题，涉及电容短路行为及故障能否在紧凑设备间传播。具体判据需向 UL 确认。",
+       "Worker protection：UL 文章指出 800 V DC 下低压或低能量 DC 形成的维护习惯可能不再适用，机架、sidecar、母线槽、电源架都要评估电击和电弧风险。",
+       "DC voltage ranges：幻灯片只列出议题，未给出电压范围数值。解读：电压范围未定会影响间距、器件额定值，须等标准或 OCP 规范确定。"
+      ]
+     },
+     {
+      "title": "Known Unknowns（标准与产业类）",
+      "color": "orange",
+      "items": [
+       "Evolving installation codes：UL 文章称 NEC 与 NFPA 70E 在北美部署中与产品标准、工作规程更紧密相关；若超过 1,000 V AC/1,500 V DC 还有额外要求。",
+       "Key components 与 Isolation requirements：幻灯片仅列条目；Isolation monitors 在状态表为 New OOI（Starting），尚无正式文本。",
+       "把互操作与系统规范纳入标准、产品创新与可得性、公用事业与并网：幻灯片仅列条目，未给范围；具体进展需向 Current/OS 确认。",
+       "跨品类需求：Spacings、高频导致的线径（Wiring sizes）、含储能器件、冷却方式（Cooling）、接地配置（Grounding configuration）。",
+       "解读：这些项目正是 UL 840 间距、UL 467 接地等参考标准的适用点，设计时应把它们列为待确认项并留裕量。"
+      ]
+     }
+    ],
+    "src": "Current/OS 幻灯片 Known Unknowns 页；UL 文章 Emerging Risks in AI Data Centers (2026-10)；NFPA 70E 2024 Article 130 教材摘录",
+    "conf": "B"
+   },
+   {
+    "kind": "cards",
+    "title": "Known Unknowns 与 70E · 详解 (2/2)",
+    "subtitle": "NFPA 70E 要点与口径核对",
+    "cards": [
+     {
+      "title": "NFPA 70E 要点",
+      "color": "teal",
+      "items": [
+       "UL 文章称 §130.2 是基线：≥50 V 的带电导体与电路部件，在作业前应处于电气安全工作状态；触发条件是进入 limited approach boundary，或设备交互增加电弧闪光伤害可能。",
+       "带电作业应是受控例外：UL 文章要求有书面风险评估、合格人员、接近边界、电弧闪光分析、作业策划、标签、规程与 PPE。",
+       "NFPA 70E 2024 教材摘录显示，电气安全工作状态（ESWC）要求位于 110.2(B)；§130.2 是带电电气工作许可（Energized Electrical Work Permit）。",
+       "该许可须含：电路与设备描述、工作内容、必须带电的理由、安全工作规程、电击与电弧风险评估结果、禁入措施、作业前会议记录与批准签字（130.2(B)）。",
+       "测试、故障排查、电压测量、不越过 restricted approach boundary 的热成像/巡检可不要许可（130.2(C)），但仍须合格人员与 PPE。"
+      ]
+     },
+     {
+      "title": "口径与核对要求",
+      "color": "red",
+      "items": [
+       "条款位置因版次而异：UL 文章写 §130.2，2024 版文本中应为 §110.2(B) 与 §130.2。引用时以所用版次原文为准，需向 UL 或 NFPA 确认。",
+       "55 项（幻灯片）与“60+ 项”（UL 文章）口径不同；引用时标明出处，不得合并或互相折算。",
+       "幻灯片文字提取有乱序，时间线与计数需核对原图；时间线未标注年份，不做推断。",
+       "UL 文章还提示 Hot-swap 需特别审慎：模块化不等于允许带载拔插，semi-hot-swap 需隔离、储能管理、防触碰隔板与联锁。"
+      ]
+     }
+    ],
+    "src": "Current/OS 幻灯片 Known Unknowns 页；UL 文章 Emerging Risks in AI Data Centers (2026-10)；NFPA 70E 2024 Article 130 教材摘录",
+    "conf": "B"
+   }
+  ]
+ }
+]
