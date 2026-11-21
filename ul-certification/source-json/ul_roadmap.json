@@ -1,0 +1,489 @@
+{
+ "key": "ul_roadmap",
+ "id": "UL 800VDC 路线图",
+ "name_zh": "UL 800VDC 数据中心电力标准路线图",
+ "edition": "Current/OS 峰会资料（©2026）+ UL 新闻稿 2026-01 至 2026-11",
+ "tag": "路线图",
+ "slides": [
+  {
+   "kind": "cards",
+   "title": "UL 800VDC 路线图总览",
+   "subtitle": "Current/OS 峰会资料 + UL 新闻稿",
+   "cards": [
+    {
+     "title": "资料定位",
+     "color": "teal",
+     "items": [
+      "核心资料：Current/OS 为 IEC 标准化峰会准备的幻灯片（©2026）",
+      "目标：映射需求、识别 IEC 缺口、定优先级、定快速通道",
+      "范围：端到端（chip to grid），以 800 VDC 为主，兼顾 1500 VDC",
+      "UL 2026-01-13：与 OCP、ABB、Eaton 启动 Codes & Standards 工作流",
+      "UL 2026-10 文章称评审“60+ 电力标准”，与幻灯片 55 项口径不同"
+     ]
+    },
+    {
+     "title": "55 项缺口分析",
+     "color": "green",
+     "items": [
+      "清单来源：NVIDIA keynote 初始 12 项",
+      "再加：Eaton 白皮书引用 6 项、UL 电力首席工程师评审 32 项",
+      "再加：客户提出的新 UL 标准请求 5 项，合计 55 项",
+      "55 项中 34 项已覆盖 800 VDC（>60%），21 项有缺口",
+      "幻灯片称其余项“更新已在进行”"
+     ]
+    },
+    {
+     "title": "加速工具",
+     "color": "orange",
+     "items": [
+      "CRD、OOI、CCN、Guide Information 四类工具加快标准更新",
+      "时间窗：约 1 个月到 9 个月，目标 Q1 至 Q4",
+      "项目类型：CRD、New OOI、New CCN、Guide Card、行业参与",
+      "客户试点项目：UL 2140、UL 2755、UL 2137"
+     ]
+    },
+    {
+     "title": "OCP 背景数据（幻灯片）",
+     "color": "red",
+     "items": [
+      "McKinsey 中情景：AI 资本开支至 2030 年 5.2 万亿美元",
+      "机架功率路径：2024 25 kW、2026 125 kW、2028 600 kW+、2030 1 MW+",
+      "对应架构：480V AC/48V、±400V DC sidecar、800V 原生、1500V",
+      "UL 文章称 1 MW/机架可能在 2027–2028，与上述口径不同",
+      "推理增速 35% CAGR，训练 22%"
+     ]
+    }
+   ],
+   "src": "/tmp/src 路线图；UL 新闻稿 2026-01-13、2026-10-07；UL 文章 2026-10",
+   "conf": "B"
+  },
+  {
+   "kind": "table_full",
+   "title": "55 个标准的缺口统计",
+   "subtitle": "合计 55 项：覆盖 34，缺口 21（覆盖约 62%）",
+   "head": [
+    "类别",
+    "标准数 / 覆盖 800 VDC / 缺口",
+    "依据"
+   ],
+   "colw": [
+    3.2,
+    8.3,
+    1.15
+   ],
+   "rows": [
+    [
+     "源与开关控制",
+     "Source 5/5/0；Switching/control devices 5/5/0（两类均无缺口）",
+     "原文"
+    ],
+    [
+     "配电设备",
+     "Distribution equipment：11 项；覆盖 6；缺口 5",
+     "原文"
+    ],
+    [
+     "电源与变换器",
+     "Power supplies/converters：3 项；覆盖 2；缺口 1",
+     "原文"
+    ],
+    [
+     "过流保护",
+     "Overcurrent/protection：12 项；覆盖 6；缺口 6（缺口最多）",
+     "原文"
+    ],
+    [
+     "接地与连接",
+     "Grounding/bonding：1 项；覆盖 0；缺口 1",
+     "原文"
+    ],
+    [
+     "连接器",
+     "Connectors：11 项；覆盖 6；缺口 5",
+     "原文"
+    ],
+    [
+     "线缆",
+     "Cables/cords：4 项；覆盖 3；缺口 1",
+     "原文"
+    ],
+    [
+     "用电设备",
+     "Power utilization（GPU、shelf、server）：1 项；覆盖 0；缺口 1",
+     "原文"
+    ],
+    [
+     "参考标准",
+     "Reference standards：2 项；覆盖 1；缺口 1。总计 55/34/21，与分项求和一致",
+     "原文"
+    ]
+   ],
+   "src": "/tmp/src/CurrentOS_UL_800VDC_roadmap.txt（附录 Gap analysis 页）",
+   "conf": "A"
+  },
+  {
+   "kind": "table",
+   "title": "各类别缺口清单",
+   "subtitle": "幻灯片“UL Standards gaps”页的归类",
+   "head": [
+    "条款",
+    "要点",
+    "依据"
+   ],
+   "colw": [
+    1.5,
+    5.5,
+    0.8
+   ],
+   "rows": [
+    [
+     "配电设备(5)",
+     "UL 1558、UL 1008、UL 1400-1 OOI/-2（FMP）、DC sidecar（TBD）；第 5 项未逐一写明",
+     "原文"
+    ],
+    [
+     "电源(1)",
+     "UL 1778（DC UPS）；动作为 Guide Card，长期目标 UL 62040-5-1",
+     "原文"
+    ],
+    [
+     "过流保护(6)",
+     "UL 248 DC 熔断器、DC AFCI、DC GFCI、隔离监测、UL 1053、NGR 监测",
+     "原文"
+    ],
+    [
+     "接地(1)",
+     "UL 467 接地/连接设备（动作 CRD，状态 Starting）",
+     "原文"
+    ],
+    [
+     "连接器(5)",
+     "UL 1977、UL 1681、UL 1682、LVDC Litz PDU2 与 J-box 连接器（计数为解读）",
+     "解读"
+    ],
+    [
+     "线缆(1)",
+     "数据中心液冷线缆（New OOI，In-process）",
+     "原文"
+    ],
+    [
+     "用电与参考(2)",
+     "UL 62368-1（算力机架/行设备）；UL RP 2986（测量入射能量暴露）",
+     "原文"
+    ]
+   ],
+   "impact": [
+    "Overcurrent 缺口 6 项最多，DC 分断与熔断难度高（解读）",
+    "Grounding 与 Power utilization 两类覆盖为 0"
+   ],
+   "advice": [
+    "采购前核对缺口项目的 CRD/OOI 状态",
+    "无标准项目用 OOI/CRD 取证并预留进度"
+   ],
+   "src": "/tmp/src/CurrentOS_UL_800VDC_roadmap.txt",
+   "conf": "B"
+  },
+  {
+   "kind": "table",
+   "title": "CRD / OOI / CCN / Guide 机制",
+   "subtitle": "UL Solutions 的 4 类加速工具（路线图原文）",
+   "head": [
+    "条款",
+    "要点",
+    "依据"
+   ],
+   "colw": [
+    1.4,
+    5.6,
+    0.8
+   ],
+   "rows": [
+    [
+     "CRD",
+     "Certification Requirement Decision：UL 官方决定，建立新的或修订的安全要求",
+     "原文"
+    ],
+    [
+     "CRD 特性",
+     "常在标准更新前促成新技术采用，提供即时合规路径，针对具体技术、性能或安全问题",
+     "原文"
+    ],
+    [
+     "OOI",
+     "Outline of Investigation：UL 自有的非共识文件，含尚无正式标准产品的认证要求",
+     "原文"
+    ],
+    [
+     "OOI 用途",
+     "用于评估新兴技术或专门产品，并授予 UL 安全认证标志",
+     "原文"
+    ],
+    [
+     "CCN",
+     "Category Control Number：UL 分配的四字母代码，按安全标准与预期用途分类产品",
+     "原文"
+    ],
+    [
+     "CCN 用途",
+     "可在 Product iQ 数据库查 guide 信息，便于监管者与制造商核对合规",
+     "原文"
+    ],
+    [
+     "Guide Info",
+     "说明适用标准、使用限制与安装要求，界定认证范围、适用标准与所需 Mark",
+     "原文"
+    ]
+   ],
+   "impact": [
+    "OOI 非共识文件，条款归 UL 所有且正文不公开",
+    "CRD 可快速生效，但不是共识标准"
+   ],
+   "advice": [
+    "用 CCN 在 Product iQ 查 Guide，确认 Mark 与限制",
+    "项目早期向 UL 确认走 CRD、OOI 还是 Guide Card"
+   ],
+   "src": "/tmp/src/CurrentOS_UL_800VDC_roadmap.txt（Expediting support 页）",
+   "conf": "A"
+  },
+  {
+   "kind": "table_full",
+   "title": "各项目的动作与状态（幻灯片状态表）",
+   "subtitle": "按动作类型与状态归并，状态原文保留英文",
+   "head": [
+    "动作 · 状态",
+    "项目",
+    "依据"
+   ],
+   "colw": [
+    3.0,
+    8.5,
+    1.15
+   ],
+   "rows": [
+    [
+     "OOI·客户试点",
+     "UL 2140（预制配电总成）、UL 2755（预制模块化数据中心）、UL 2137（数据中心电力电缆）",
+     "原文"
+    ],
+    [
+     "OOI·行业协同",
+     "UL 3001D DC 微电网（Industry–WG）；DC sidecar（TBD，codes/industry alignment）",
+     "原文"
+    ],
+    [
+     "OOI·Starting",
+     "DC AFCI、DC GFCI、隔离监测（非 EV）、中性点接地电阻监测（均 TBD）",
+     "原文"
+    ],
+    [
+     "OOI·In-process",
+     "LVDC Litz PDU2 连接器、Litz J-box 连接器、数据中心液冷线缆（均 TBD）",
+     "原文"
+    ],
+    [
+     "CRD·Starting",
+     "UL 1558、UL 1008、UL 1053、UL 467、UL 1977、UL 1681/1682、UL RP 2986",
+     "原文"
+    ],
+    [
+     "CRD·行业协同",
+     "UL 1400-1/-2 FMP（codes）；UL 248 DC 熔断器（TC 任务组）；UL 62368-1（codes/TC 对齐）",
+     "原文"
+    ],
+    [
+     "CCN·Starting",
+     "New CCN：UL 508（DC 母线 DC busbar）；UL 1741（DC/DC 变换器）",
+     "原文"
+    ],
+    [
+     "Guide Card",
+     "Starting：UL 1012 + UL 1778（DC UPS），长期目标 UL 62040-5-1",
+     "原文"
+    ],
+    [
+     "UL 2877 OOI",
+     "不在状态总表；仅见于 Source 类、IEC 映射（IEC 62477-2/TC 22）与投票 Top5",
+     "解读"
+    ]
+   ],
+   "src": "/tmp/src/CurrentOS_UL_800VDC_roadmap.txt（Overview of updates 页，版面提取有乱序）",
+   "conf": "B"
+  },
+  {
+   "kind": "table",
+   "title": "路线图时间线与投票",
+   "subtitle": "Q1 / Q2 / Q2–Q3 / Q4（幻灯片未标年份）",
+   "head": [
+    "条款",
+    "要点",
+    "依据"
+   ],
+   "colw": [
+    1.4,
+    5.6,
+    0.8
+   ],
+   "rows": [
+    [
+     "约 1 个月",
+     "估计 1 个月，目标完成：End of Q1",
+     "原文"
+    ],
+    [
+     "约 3 个月",
+     "估计 3 个月，目标完成：Q2",
+     "原文"
+    ],
+    [
+     "3–6 个月",
+     "估计 3–6 个月，目标完成：Q2–Q3",
+     "原文"
+    ],
+    [
+     "6–9 个月",
+     "估计 6–9 个月，目标完成：Q4",
+     "原文"
+    ],
+    [
+     "幻灯片计数",
+     "CRD 8、New CCN/Guide Card 3、New OOI 10、行业参与 6；归属哪个时间窗需核对原图",
+     "解读"
+    ],
+    [
+     "行业参与项",
+     "DC 微电网、DC sidecar、FMP、DC 支路熔断器、算力机架/行设备（紧随时间线列出）",
+     "原文"
+    ],
+    [
+     "投票 Top5",
+     "DC 微电网 8%；DC sidecar 6%；DC/DC 6%；MV SST 5% 与 SSCB 5% 并列",
+     "原文"
+    ]
+   ],
+   "impact": [
+    "我按状态表自行计数：CRD 10、New OOI 12，与 8/10 不一致",
+    "行业参与项依赖外部共识，周期更长（解读）"
+   ],
+   "advice": [
+    "里程碑对齐 UL 各项目的目标窗口并留余量",
+    "关注 OCP 与 Current/OS 对 sidecar 与电压范围的协调"
+   ],
+   "src": "/tmp/src/CurrentOS_UL_800VDC_roadmap.txt（Road map timeline、Poll Results 页）",
+   "conf": "B"
+  },
+  {
+   "kind": "table_full",
+   "title": "UL 与 IEC 标准、TC 对应表（节选）",
+   "subtitle": "UL-IEC 标准映射与 IEC TC 映射",
+   "head": [
+    "UL 标准",
+    "IEC 对应（TC）",
+    "依据"
+   ],
+   "colw": [
+    3.4,
+    8.1,
+    1.15
+   ],
+   "rows": [
+    [
+     "UL 2877/1012",
+     "UL 2877 MV SST → IEC 62477-2（TC 22）；电源 UL 1012 → IEC 62477-1 加相应 Part 2（TC 22）",
+     "原文"
+    ],
+    [
+     "UL 1558/891",
+     "UL 1558/891/508/2140 → IEC 61439-2（SC 121B）；UL 67 → 61439-2/-3；UL 857 母线槽 → 61439-6",
+     "原文"
+    ],
+    [
+     "UL 2755/62368",
+     "UL 2755 → ISO/IEC 22237 系列（JTC 1）；UL 62368-1 → IEC 62368-1 Ed.4（TC 108）",
+     "原文"
+    ],
+    [
+     "UL 3001/9540",
+     "UL 3001 → IEC 60364 系列（TC 64）；UL 9540 → IEC 62933；UL 1973 → IEC 62619、63056",
+     "原文"
+    ],
+    [
+     "UL 1008/98/489",
+     "UL 1008→IEC 60947-6-1；98→60947-3；489/1066→60947-2；489I→60947-10（SC 121A）；1008B→EN 62991",
+     "原文"
+    ],
+    [
+     "UL 1741/1778",
+     "UL 1741 → IEC 62109 系列（TC 82）；DC UPS → IEC 62040-5-1、62040-1、62477-1",
+     "原文"
+    ],
+    [
+     "UL 248/1449",
+     "UL 248/1449 等 → IEC 60269、60127（SC 32B/32C）；61643（SC 37A）；60755-1、61557-8/-9/-15（TC 85）",
+     "原文"
+    ],
+    [
+     "UL 1977/1681",
+     "UL 1977 → IEC 61984（SC 48B）；IEC 60309 系列与 TS 63641（制定中）；终端 60947-7-1",
+     "原文"
+    ],
+    [
+     "UL 840/2986",
+     "UL 840 → IEC 60664-1、TS 62993（TC 109）；TS 63527、EN 50110；IEC 60038（TC 8）；TC 归属提取不确定",
+     "解读"
+    ]
+   ],
+   "src": "/tmp/src/CurrentOS_UL_800VDC_roadmap.txt（Mapping 1/2、2/2，TC Mapping 1/2、2/2）",
+   "conf": "B"
+  },
+  {
+   "kind": "cards",
+   "title": "业界 Known Unknowns 与 NFPA 70E",
+   "subtitle": "含条款位置的核对提示",
+   "cards": [
+    {
+     "title": "Known Unknowns（1/2）",
+     "color": "red",
+     "items": [
+      "DC 电弧闪光（UL：DC 电弧能量的测量与预测能力仍有限）",
+      "工人防护（Worker protection）",
+      "DC 电压范围（DC voltage ranges）",
+      "DC 电路中的电容性故障（Capacitive faults）",
+      "不断演进的安装规范（Evolving installation codes）"
+     ]
+    },
+    {
+     "title": "Known Unknowns（2/2）",
+     "color": "orange",
+     "items": [
+      "关键部件（Key components）与隔离要求（Isolation）",
+      "把互操作与系统规范纳入标准",
+      "产品创新与可得性；公用事业与并网",
+      "跨品类需求：间距、高频线径、含储能器件、冷却、接地配置"
+     ]
+    },
+    {
+     "title": "NFPA 70E 要点",
+     "color": "teal",
+     "items": [
+      "UL 文章称 §130.2 为基线：≥50 V 带电部件作业前置于电气安全工作状态",
+      "触发：进入 limited approach boundary，或设备交互增加电弧闪光伤害可能",
+      "带电作业为受控例外：风险评估、合格人员、边界、电弧闪光分析、PPE",
+      "NFPA 70E 2024 文本：该要求在 §110.2(B)，§130.2 为带电作业许可"
+     ]
+    },
+    {
+     "title": "口径与核对",
+     "color": "green",
+     "items": [
+      "55 项（幻灯片）与“60+ 项”（UL 文章）口径不同，勿混用",
+      "70E 条款位置以所用版次原文为准，UL 文章与 2024 文本不同",
+      "幻灯片文字提取有乱序，时间线数字需核对原图",
+      "时间线未标注年份，不做推断"
+     ]
+    }
+   ],
+   "src": "路线图 Known Unknowns 页；UL 文章 2026-10；NFPA 70E 2024（law.resource.org）",
+   "conf": "B"
+  }
+ ]
+}

@@ -1,0 +1,829 @@
+{
+ "key": "ul857",
+ "id": "UL 857",
+ "name_zh": "母线槽 Busways 及配件",
+ "edition": "第 14 版（2025-09-10）",
+ "tag": "母线槽",
+ "slides": [
+  {
+   "kind": "cards",
+   "title": "UL 857 概览：母线槽标准",
+   "subtitle": "14th ed. 2025-09-10；≤1000 V、≤6000 A",
+   "cards": [
+    {
+     "title": "版本与发布",
+     "color": "teal",
+     "items": [
+      "第 14 版 2025-09-10，取代 13 版（2009-03-25，2021-04-09 修订）",
+      "三国：NMX-J-148-ANCE-2025（第4版）、CSA C22.2 No. 27:25（第7版）",
+      "Summary of Topics：scope、601–1000 V 间距、稳定法等 8 项",
+      "Intertek SUN 2026-02-03 发布，2027-09-10 生效",
+      "13 版 Scope 为 ≤600 V；14 版扩大到 ≤1000 V"
+     ]
+    },
+    {
+     "title": "Scope 要点",
+     "color": "green",
+     "items": [
+      "1.1 service-entrance、feeder、branch-circuit 母线槽及配件",
+      "额定 ≤1000 V、≤6000 A",
+      "不适用于配电预制系统中连接开关柜的 metal-enclosed bus",
+      "1.2 busway = 接地金属外壳 + 工厂安装导体（铜或铝）",
+      "1.3 fittings 指 tap box、feed box、plug-in 等，不含弯头三通"
+     ]
+    },
+    {
+     "title": "IEC 对应与证书",
+     "color": "orange",
+     "items": [
+      "路线图对应 IEC 61439-6（SC 121B）",
+      "Intertek 提供 UL 857、CSA C22.2 No. 27、IEC 61439-6 认证",
+      "UL 证书示例：Busways and Associated Fittings，UL 857 与 CSA 27",
+      "证书按型号/配件分列（如 plug-in tap box）",
+      "CCN 为 DUWX（二手检索结果，需核对）"
+     ]
+    },
+    {
+     "title": "与 800V DC 的关系",
+     "color": "red",
+     "items": [
+      "路线图列出 UL 857 为 800 VDC busways and tap cans",
+      "14 版 Scope 上限 1000 V，Scope 文字未区分 AC/DC",
+      "601–1000 V 间距、Table 7.2 已更新，DC 取值需向 UL 确认",
+      "Eaton DC 母线槽 600 Vdc UL，750 Vdc 最大（厂商资料）",
+      "800 V DC 具体要求：需向 UL 确认"
+     ]
+    }
+   ],
+   "src": "normadoc UL 857 14th ed. 目录与 Summary of Topics；shopulstandards UL 857；Intertek SUN 2026-02-03；CurrentOS_UL_800VDC_roadmap.txt",
+   "conf": "A"
+  },
+  {
+   "kind": "table",
+   "title": "UL 857 范围与排除（§1）",
+   "subtitle": "14th ed.，对照 13th ed.",
+   "head": [
+    "条款",
+    "要点",
+    "依据"
+   ],
+   "colw": [
+    1.4,
+    5.6,
+    0.8
+   ],
+   "rows": [
+    [
+     "§1.1",
+     "覆盖 service-entrance、feeder、branch-circuit 母线槽及配件，≤1000 V、≤6000 A",
+     "原文"
+    ],
+    [
+     "§1.1 排除",
+     "不适用于配电预制系统中用于连接开关柜的 metal-enclosed bus",
+     "原文"
+    ],
+    [
+     "§1.2",
+     "busway：接地金属外壳内含工厂安装导体，铜或铝的棒、杆或管",
+     "原文"
+    ],
+    [
+     "§1.3",
+     "fittings 指 tap box、feed box、plug-in 器件等，不含弯头、三通、十字",
+     "原文"
+    ],
+    [
+     "13 版 §1.1",
+     "13 版（2009-03-25，2021-04-09 修订）Scope 为 ≤600 V",
+     "原文"
+    ],
+    [
+     "13 版 §1.4/1.5",
+     "trolley 配件另有 Annex D 要求；short-run 仅需满足指明适用的条款",
+     "解读"
+    ],
+    [
+     "Summary",
+     "14 版含“Clarification of the Scope”，具体措辞以正式文本为准",
+     "目录"
+    ]
+   ],
+   "impact": [
+    "Scope 由 ≤600 V 扩到 ≤1000 V：800 V DC 进入范围",
+    "≤6000 A 上限覆盖大电流 DC 母线需求"
+   ],
+   "advice": [
+    "800 V DC 项目引用 14 版，不要沿用 13 版 600 V",
+    "1.3 配件范围决定 tap box 与 plug-in 是否一并取证"
+   ],
+   "src": "normadoc UL 857 14th ed. 目录与 Summary of Topics；shopulstandards 13 版/14 版；engineerdocuments（13 版）",
+   "conf": "A"
+  },
+  {
+   "kind": "table_full",
+   "title": "UL 857 章节结构总览",
+   "subtitle": "14th ed. 目录；页码为目录所示",
+   "head": [
+    "章节",
+    "内容",
+    "对 800V 电源系统的相关度",
+    "依据"
+   ],
+   "colw": [
+    1.5,
+    5.0,
+    4.3,
+    0.9
+   ],
+   "rows": [
+    [
+     "§1–§5",
+     "Scope、Components、Units、Referenced publications、Definitions（p7–p9）",
+     "中：Scope 决定电压/电流上限",
+     "目录"
+    ],
+    [
+     "§6",
+     "General（p10）：结构通则",
+     "中：旧编号 6.35e GFP 电压阈值出现 600→1000 V 标记",
+     "目录"
+    ],
+    [
+     "§7",
+     "Clearance and Creepage（p17）：7.1 无开关、7.2 含开关、7.3 short-run",
+     "高：601–1000 V 间距修订，直接对应 800 V",
+     "目录"
+    ],
+    [
+     "§8–§10",
+     "Insulating Materials（p21）、Terminals（p22）、Enclosure（p24）",
+     "中：绝缘材料与端子关系到 DC 绝缘与连接",
+     "目录"
+    ],
+    [
+     "§11–§12",
+     "Temperature Rise（p25）、Protection Against Electric Shock（p26）",
+     "高：温升限值与触电防护在 DC 下需确认",
+     "目录"
+    ],
+    [
+     "§13–§14",
+     "Short-Circuit Protection（p31）、Electrical Connections（p33，含 14.2 bar 尺寸）",
+     "高：DC 短路耐受与连接",
+     "目录"
+    ],
+    [
+     "§15–§17",
+     "温升试验：general、stabilization method、heat cycling method（p41–p43）",
+     "高：稳定法判据在 14 版明确",
+     "目录"
+    ],
+    [
+     "§18–§20",
+     "Dielectric、Clamped Joint、Reduced Insulation Thickness（p43–p44）",
+     "高：介电与接头试验",
+     "目录"
+    ],
+    [
+     "§21–§24",
+     "额定电压短路 p44、降压短路 p57、外壳接头短时 p62、导电率 p63",
+     "高：DC 短路试验源需确认",
+     "目录"
+    ]
+   ],
+   "src": "normadoc UL 857 14th ed. 目录与 Summary of Topics",
+   "conf": "A"
+  },
+  {
+   "kind": "table",
+   "title": "UL 857 §6–§7 总则与间距",
+   "subtitle": "14th ed. 目录；SUN 与二手资料补充",
+   "head": [
+    "条款",
+    "要点",
+    "依据"
+   ],
+   "colw": [
+    1.4,
+    5.6,
+    0.8
+   ],
+   "rows": [
+    [
+     "§6 General",
+     "目录第 10 页起；SUN 引用旧编号 6.35e，GFP 条款电压阈值带 600→1000 V 标记",
+     "目录"
+    ],
+    [
+     "§7.1",
+     "无开关机构的母线槽与配件：clearance 与 creepage（目录 p17–20，Table 7.1）",
+     "目录"
+    ],
+    [
+     "§7.2",
+     "含开关机构的配件（p20）：Table 7.2 开关与断路器配件间距，已更新 601–1000 V",
+     "原文"
+    ],
+    [
+     "§7.3",
+     "短程母线槽 short-run busway（p21）",
+     "目录"
+    ],
+    [
+     "Table 7.1",
+     "14 版 Summary 称修订 601–1000 V 的最小 clearance 与 creepage，数值以正式文本为准",
+     "原文"
+    ],
+    [
+     "Table 7.1（二手）",
+     "二手网页称 601–1000 V 由 19.1 mm 改 20.3 mm，未区分 clearance/creepage",
+     "解读"
+    ],
+    [
+     "13 版 §1.6.1",
+     "13 版：依赖过表面绝缘的材料须陶瓷类或 CTI ≥175，编号与 14 版对应待核对",
+     "解读"
+    ]
+   ],
+   "impact": [
+    "§7 是 601–1000 V 的核心章节：800 V DC 直接受影响",
+    "二手 mm 值只能作参考，设计须取正式文本数值"
+   ],
+   "advice": [
+    "取得 14 版 Table 7.1/7.2 后核对 800 V 档取值",
+    "确认间距表对 DC 是否沿用 AC 取值：问 UL"
+   ],
+   "src": "normadoc UL 857 14th ed. 目录与 Summary of Topics；Intertek SUN 2026-02-03；orochem.org UL 857-2025",
+   "conf": "B"
+  },
+  {
+   "kind": "table",
+   "title": "UL 857 §8–§12 材料、端子、外壳、温升、触电",
+   "subtitle": "14th ed. 目录；正文未取得",
+   "head": [
+    "条款",
+    "要点",
+    "依据"
+   ],
+   "colw": [
+    1.4,
+    5.6,
+    0.8
+   ],
+   "rows": [
+    [
+     "§8（p21）",
+     "Insulating Materials：绝缘材料要求；13 版有 CTI/陶瓷类过表面绝缘规定",
+     "目录"
+    ],
+    [
+     "§9（p22–23）",
+     "Terminals：外部导体端子要求，正文未取得",
+     "目录"
+    ],
+    [
+     "§10（p24）",
+     "Enclosure：外壳要求；busway 为接地金属外壳（§1.2）",
+     "目录"
+    ],
+    [
+     "§11（p25）",
+     "Temperature Rise：限值要求；14 版修订其稳定法定义（见 §16）",
+     "目录"
+    ],
+    [
+     "§11 二手",
+     "SYNC：镀层接头 55°C 温升（40°C 环境）；ABB 与某规格书同写 55°C",
+     "解读"
+    ],
+    [
+     "§12（p26–30）",
+     "Protection Against Electric Shock：目录显示篇幅 5 页，正文未取得",
+     "目录"
+    ],
+    [
+     "Annex A",
+     "14 版从 Annex A 删除对 UL 512 的引用",
+     "原文"
+    ]
+   ],
+   "impact": [
+    "§11 温升限值：DC 母线槽的发热边界需核对",
+    "§12 触电防护在 800 V 下的取值需向 UL 确认"
+   ],
+   "advice": [
+    "温升数值以正式文本为准，二手 55°C 仅作参考",
+    "取证前列 §8–§12 逐条符合性清单"
+   ],
+   "src": "normadoc UL 857 14th ed. 目录与 Summary of Topics；synergyinconstruction.com busway；ABB ReliaGear 技术指南",
+   "conf": "B"
+  },
+  {
+   "kind": "table",
+   "title": "UL 857 §13–§14 短路与电气连接",
+   "subtitle": "14th ed. 目录与摘要",
+   "head": [
+    "条款",
+    "要点",
+    "依据"
+   ],
+   "colw": [
+    1.4,
+    5.6,
+    0.8
+   ],
+   "rows": [
+    [
+     "§13（p31）",
+     "Short-Circuit Protection and Short-Circuit Withstand Strength",
+     "目录"
+    ],
+    [
+     "§13.1",
+     "Fittings：配件短路要求；14 版 Summary：澄清短路样品选择",
+     "原文"
+    ],
+    [
+     "§13.2",
+     "Short-run busway 短路要求（p31）",
+     "目录"
+    ],
+    [
+     "§13.1 二手",
+     "样品选择：最大/最小额定、最弱支撑、不同短路电流组合（二手）",
+     "解读"
+    ],
+    [
+     "§14.1–§14.2",
+     "Electrical Connections 总则；bar 与绝缘导体的尺寸与额定（p34）",
+     "目录"
+    ],
+    [
+     "§14.3",
+     "Wiring（p36）：内部接线要求",
+     "目录"
+    ],
+    [
+     "SCCR 持续时间",
+     "SYNC：UL 857 以 3 周波建立 SCCR；ABB 称试验最少 3 周波",
+     "解读"
+    ]
+   ],
+   "impact": [
+    "DC 短路耐受与电动力需按 DC 源特性重新评估",
+    "SCCR 时间基准为二手资料，需核对正文"
+   ],
+   "advice": [
+    "短路样品覆盖最大额定与最弱支撑组合",
+    "DC 短路能量与 AC 3 周波基准不同，提前问 UL"
+   ],
+   "src": "normadoc UL 857 14th ed. 目录与 Summary of Topics；orochem.org；SYNC busway；ABB ReliaGear 指南",
+   "conf": "B"
+  },
+  {
+   "kind": "table",
+   "title": "UL 857 §15–§20 温升、介电、接头、绝缘",
+   "subtitle": "14th ed. 目录与摘要",
+   "head": [
+    "条款",
+    "要点",
+    "依据"
+   ],
+   "colw": [
+    1.4,
+    5.6,
+    0.8
+   ],
+   "rows": [
+    [
+     "§15（p41）",
+     "Temperature Rise Test – General：温升试验通则",
+     "目录"
+    ],
+    [
+     "§16（p41）",
+     "Stabilization Method：14 版明确定义稳定判据（Summary：Define Stabilization）",
+     "原文"
+    ],
+    [
+     "§16 二手",
+     "稳定判据：温度变化 ≤1°C/15 分钟（二手），UL 891 §9.2.2.15 为 ≤1.0°C",
+     "解读"
+    ],
+    [
+     "§17（p42）",
+     "Heat Cycling Method：17.1 General、17.2 Test arrangement、17.3 Results",
+     "目录"
+    ],
+    [
+     "§18（p43）",
+     "Dielectric Voltage Withstand Test：母排间及母排对外壳绝缘耐压",
+     "目录"
+    ],
+    [
+     "§19（p43）",
+     "Clamped Joint Test：夹紧接头试验，具体判据以正文为准",
+     "目录"
+    ],
+    [
+     "§20（p44）",
+     "Reduced Insulation Thickness Test：减小绝缘厚度试验",
+     "目录"
+    ]
+   ],
+   "impact": [
+    "稳定法定义明确后，温升试验时长和判据更可预期",
+    "介电试验电压在 DC 下取值需向 UL 确认"
+   ],
+   "advice": [
+    "温升试验按稳定法排程，记录每 15 分钟读数",
+    "接头镀层、紧固力矩按 §19 提前验证"
+   ],
+   "src": "normadoc UL 857 14th ed. 目录与 Summary of Topics；orochem.org UL 857-2025；Intertek SUN",
+   "conf": "B"
+  },
+  {
+   "kind": "table",
+   "title": "UL 857 §21–§24 短路与导电率试验",
+   "subtitle": "14th ed. 目录页码显示篇幅",
+   "head": [
+    "条款",
+    "要点",
+    "依据"
+   ],
+   "colw": [
+    1.4,
+    5.6,
+    0.8
+   ],
+   "rows": [
+    [
+     "§21.1（p44）",
+     "Short-Circuit Withstand Test at Rated Voltage：通则（p44–46）",
+     "目录"
+    ],
+    [
+     "§21.2（p47）",
+     "Test arrangement：试验布置",
+     "目录"
+    ],
+    [
+     "§21.3（p48）",
+     "Current source characteristics：电流源特性，篇幅 p48–54",
+     "目录"
+    ],
+    [
+     "§21.4（p55）",
+     "Results to be obtained：试验后合格判据",
+     "目录"
+    ],
+    [
+     "§22（p57）",
+     "Reduced Voltage：22.1 General、22.2 Test arrangements（p57–61）",
+     "目录"
+    ],
+    [
+     "§23（p62）",
+     "Enclosure Joint Short-Time Fault Current Test：外壳接头短时故障电流",
+     "目录"
+    ],
+    [
+     "§24（p63）",
+     "Verification of Electrical Conductivity；24.1 Trolley busway",
+     "目录"
+    ]
+   ],
+   "impact": [
+    "§21.3 电流源特性篇幅最大：DC 短路源如何定义须确认",
+    "§22 降压短路可降低试验站容量要求"
+   ],
+   "advice": [
+    "向 UL 确认 800 V DC 短路试验源与 X/R、时间常数",
+    "选好最弱支撑样品，避免重复试验"
+   ],
+   "src": "normadoc UL 857 14th ed. 目录与 Summary of Topics",
+   "conf": "A"
+  },
+  {
+   "kind": "table",
+   "title": "UL 857 14th ed. 修订摘要",
+   "subtitle": "Summary of Topics 与 Intertek SUN",
+   "head": [
+    "条款",
+    "要点",
+    "依据"
+   ],
+   "colw": [
+    1.4,
+    5.6,
+    0.8
+   ],
+   "rows": [
+    [
+     "Scope",
+     "澄清 Scope（§1）",
+     "原文"
+    ],
+    [
+     "Plug-in",
+     "澄清 continuous plug-in busway 的要求",
+     "原文"
+    ],
+    [
+     "Table 7.1/7.2",
+     "修订 601–1000 V 的最小 clearance 与 creepage，数值以正式文本为准",
+     "原文"
+    ],
+    [
+     "§16",
+     "Define Stabilization for Section 16 Temperature Rise Limits",
+     "原文"
+    ],
+    [
+     "短路样品",
+     "Clarification for Short Circuit Sample Selection（位置：二手称 §13.1）",
+     "原文"
+    ],
+    [
+     "Markings",
+     "标志反映一个 busway fitting 内最多一个 service disconnect",
+     "原文"
+    ],
+    [
+     "SUN 600→1000 V",
+     "SUN：1.1、6.35e、38.1、47.2（旧编号）出现 600 V 改 1000 V 标记",
+     "原文"
+    ]
+   ],
+   "impact": [
+    "对 800 V DC 的直接影响：Scope 上限与 601–1000 V 间距",
+    "Intertek 生效日 2027-09-10，此前沿用 13 版"
+   ],
+   "advice": [
+    "项目送检时间跨 2027-09 前后，确认适用版本",
+    "设计按 14 版预留 601–1000 V 间距裕量"
+   ],
+   "src": "normadoc Summary of Topics；Intertek SUN UL 857（2026-02-03）",
+   "conf": "A"
+  },
+  {
+   "kind": "table",
+   "title": "UL 857 试验与验证项矩阵",
+   "subtitle": "基于 14th ed. 目录",
+   "head": [
+    "条款",
+    "要点",
+    "依据"
+   ],
+   "colw": [
+    1.4,
+    5.6,
+    0.8
+   ],
+   "rows": [
+    [
+     "§15–§17",
+     "温升：稳定法 §16 或热循环法 §17；记录温度稳定判据与接头温升",
+     "目录"
+    ],
+    [
+     "§18",
+     "介电耐压：母排间、母排对外壳；SYNC 称出厂逐件做介电试验（二手）",
+     "解读"
+    ],
+    [
+     "§19",
+     "夹紧接头：判据与参数以正文为准，按力矩与镀层准备样品",
+     "解读"
+    ],
+    [
+     "§20",
+     "减小绝缘厚度：验证绝缘厚度减小后的耐受",
+     "目录"
+    ],
+    [
+     "§21",
+     "额定电压短路：样品选最大/最小额定与最弱支撑（Summary 澄清）",
+     "原文"
+    ],
+    [
+     "§22",
+     "降压短路：22.1 General、22.2 Test arrangements（p57）",
+     "目录"
+    ],
+    [
+     "§23–§24",
+     "外壳接头短时故障电流；导电率验证（24.1 trolley busway）",
+     "目录"
+    ]
+   ],
+   "impact": [
+    "DC 下介电、短路试验源与判据需向 UL 确认",
+    "温升与短路是最耗时、最耗样品的两类试验"
+   ],
+   "advice": [
+    "先排温升与短路样品，再安排介电与接头",
+    "每类试验留 1 套备用样品"
+   ],
+   "src": "normadoc UL 857 14th ed. 目录与 Summary of Topics；Intertek 2026 UL 857 fact sheet",
+   "conf": "B"
+  },
+  {
+   "kind": "cards",
+   "title": "UL 857 与 800V DC 的适配分析",
+   "subtitle": "仅在资料明确时下结论",
+   "cards": [
+    {
+     "title": "资料已明确",
+     "color": "green",
+     "items": [
+      "14 版 §1.1：≤1000 V、≤6000 A；13 版为 ≤600 V",
+      "14 版修订 601–1000 V 间距，Table 7.2 同步更新",
+      "路线图把 UL 857 对应 IEC 61439-6，并列 800 VDC busways and tap cans",
+      "UL 白皮书：母线槽按 UL 857 评估",
+      "Scope 文字未区分 AC 与 DC"
+     ]
+    },
+    {
+     "title": "需向 UL 确认",
+     "color": "orange",
+     "items": [
+      "601–1000 V 间距取值在 DC 下是否相同",
+      "DC 短路电流源特性（§21.3）与 SCCR 标志",
+      "plug-in 单元/tap can 的 DC 分断与带载插拔要求",
+      "温升限值与稳定法在 DC 下是否沿用",
+      "DC 电弧与电容性故障：路线图列为未知项"
+     ]
+    },
+    {
+     "title": "厂商现状（B）",
+     "color": "red",
+     "items": [
+      "Eaton Pow-R-Way III DC：600 Vdc UL，750 Vdc 最大",
+      "Eaton 路线：目标 800 Vdc 与 1500 Vdc（厂商文章）",
+      "Vertiv PowerBar Track DC：宣称 800 VDC",
+      "Vertiv HPB 母线槽：600 V AC，按 UL 857",
+      "DC 变型的 UL 857 证书与电压：未能核实"
+     ]
+    },
+    {
+     "title": "建议路径",
+     "color": "teal",
+     "items": [
+      "书面问 UL：14 版是否覆盖 800 VDC 母线槽与 tap can",
+      "同时走 IEC 61439-6 认证（Intertek 提供三套）",
+      "供应商须提供 UL 证书文件号，核对电压栏",
+      "800 V 下 clearance/creepage 以 14 版 Table 7.1 为准"
+     ]
+    }
+   ],
+   "src": "CurrentOS_UL_800VDC_roadmap.txt；UL_emerging_risks；Eaton PA01701005E；Vertiv 页面",
+   "conf": "B"
+  },
+  {
+   "kind": "cards",
+   "title": "UL 857 设计检查清单",
+   "subtitle": "按 14th ed. 逐项核对",
+   "cards": [
+    {
+     "title": "额定与间距",
+     "color": "teal",
+     "items": [
+      "确认额定电压档（601–1000 V）与系统最高电压（§7）",
+      "按 14 版 Table 7.1/7.2 取 clearance、creepage",
+      "过表面绝缘材料：核对 CTI 或陶瓷类要求（§8）",
+      "额定电流 ≤6000 A（§1.1），铜/铝母排分别验算",
+      "端子与接头：按 §9、§14.2 核对 bar 尺寸与额定"
+     ]
+    },
+    {
+     "title": "试验准备",
+     "color": "orange",
+     "items": [
+      "温升：按 §16 稳定法或 §17 热循环法排程",
+      "介电耐压：母排间与母排对外壳（§18）",
+      "夹紧接头：紧固力矩与镀层验证（§19）",
+      "短路：最大/最小额定、最弱支撑样品（§13、§21）",
+      "降压短路与外壳接头短时试验（§22、§23）"
+     ]
+    },
+    {
+     "title": "文件与标志",
+     "color": "green",
+     "items": [
+      "标志：一个 fitting 内最多一个 service disconnect（14 版）",
+      "DC 额定与 SCCR 标志方式：提前问 UL",
+      "plug-in 单元与 tap can 单独取证（Intertek/证书）",
+      "触电防护与接地要求逐条对照 §12",
+      "保留 Follow-Up Service 的生产检验记录"
+     ]
+    }
+   ],
+   "src": "normadoc UL 857 14th ed. 目录与 Summary of Topics；Intertek 2026 UL 857 fact sheet",
+   "conf": "B"
+  },
+  {
+   "kind": "cards",
+   "title": "UL 857 取证流程、样品与失败点",
+   "subtitle": "流程信息来自证书与 Intertek 页面，失败点为工程解读",
+   "cards": [
+    {
+     "title": "取证流程",
+     "color": "teal",
+     "items": [
+      "UL 证书类别：Busways and Associated Fittings（USL、CNL）",
+      "标准列：UL 857 与 CSA C22.2 No. 27；含 Follow-Up Service",
+      "证书按产品分列：busway fittings、plug-in tap box、attachment plug",
+      "Intertek：UL 857、CSA C22.2 No. 27、IEC 61439-6 并行",
+      "UL 网络研讨会（2021-07）：UL 857 与 IEC 61439-6 差异"
+     ]
+    },
+    {
+     "title": "样品与资料",
+     "color": "orange",
+     "items": [
+      "代表样品：最大/最小额定、最弱支撑、各类 fitting",
+      "short-run 与 trolley busway 各自条款",
+      "绝缘材料与镀层证明、CTI/材料数据",
+      "800 V DC 项目先与 UL 对齐试验大纲",
+      "14 版 vs 13 版：确认送检日期落在哪个版本"
+     ]
+    },
+    {
+     "title": "常见失败与应对",
+     "color": "red",
+     "items": [
+      "接头温升超限：增加镀层、优化接头压力",
+      "短路后支撑或绝缘损坏：加强支撑，重选最弱样品",
+      "间距不足：601–1000 V 档按 Table 7.1 重新核算",
+      "介电失效：检查绝缘厚度与工艺一致性",
+      "标志缺项：service disconnect 数量标志"
+     ]
+    }
+   ],
+   "src": "border-states UL 证书；UL 网站；Intertek 2026 fact sheet；解读",
+   "conf": "B"
+  },
+  {
+   "kind": "table",
+   "title": "UL 857 来源与核实状态",
+   "subtitle": "关键事实 → 来源 → 等级",
+   "head": [
+    "事实",
+    "来源与说明",
+    "依据"
+   ],
+   "colw": [
+    2.2,
+    4.8,
+    0.8
+   ],
+   "rows": [
+    [
+     "14 版日期与目录",
+     "normadoc UL 857 PDF（A，目录止于 24.1）",
+     "原文"
+    ],
+    [
+     "Scope 上限",
+     "shopulstandards 14 版 Scope（A）",
+     "原文"
+    ],
+    [
+     "13 版 ≤600 V",
+     "shopulstandards 13 版 Scope（A）",
+     "原文"
+    ],
+    [
+     "SUN 600→1000 V",
+     "Intertek SUN；删除线丢失，方向据 13 版推断（B）",
+     "原文"
+    ],
+    [
+     "19.1→20.3 mm",
+     "orochem.org 二手；未区分 clearance/creepage（B）",
+     "解读"
+    ],
+    [
+     "800V DC 适配",
+     "路线图把 UL 857 列为 800 VDC busways（A）；DC 条款未见（B）",
+     "解读"
+    ],
+    [
+     "厂商 DC 产品",
+     "Eaton 与 Vertiv 资料，市场文案（B）",
+     "解读"
+    ]
+   ],
+   "impact": [
+    "14 版附录与 §6–§14 正文未取得，B 级行需正文复核"
+   ],
+   "advice": [
+    "获取 UL 857 完整正文后复核 Table 7.1、§16、§21"
+   ],
+   "src": "见各行来源",
+   "conf": "B"
+  }
+ ]
+}
